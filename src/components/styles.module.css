@@ -1,0 +1,71 @@
+
+
+.dimensions{
+    width: 37.188rem;
+    height: 18.563rem;
+    margin: auto;
+    position: relative;
+    background: #edb30600;
+}
+
+.pic{
+    position: absolute;
+    width: 18.9rem;
+    height: 25.2rem;
+    left: 0rem;
+    top: -6.625rem;
+
+    background: url(https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+    border-radius: 6.625rem;
+}
+
+.textDiv{
+    position: absolute;
+    width: 18.563rem;
+    height: 18.563rem;
+    left: 18.625rem;
+    top: 0rem;
+
+    background: #ffffff00;
+}
+
+.rec1{
+    position: absolute;
+    width: 17.375rem;
+    height: 1.25rem;
+    left: 18.625rem;
+    top: 0rem;
+
+    background: #edb306;
+}
+
+.rec2{
+    position: absolute;
+    width: 1.25rem;
+    height: 8.75rem;
+    left: 36rem;
+    top: 0rem;
+
+    background: #EDB506;
+}
+
+.rec3{
+    position: absolute;
+    width: 9rem;
+    height: 1.5rem;
+    left: 27.75rem;
+    top: 7.25rem;
+
+    background: #EDB506;
+}
+
+.rec4{
+    position: absolute;
+    width: 1.508rem;
+    height: 6.725rem;
+    left: 25.131rem;
+    top: 6.807rem;
+
+    background: #EDB506;
+    transform: rotate(45deg);
+}
