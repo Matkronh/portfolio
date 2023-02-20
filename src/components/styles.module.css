@@ -1,22 +1,40 @@
 
-
+/* TOP HALF CONTAINERS */
 .dimensions{
     width: 37.188rem;
     height: 18.563rem;
     margin: auto;
     position: relative;
-    background: #edb30600;
+    background: #ffffff;
+    border: 2px solid black;
 }
+
+.dimensions2{
+    width: 37.188rem;
+    height: 18.563rem;
+    margin: auto;
+    position: relative;
+    background: #ffffff;
+    border: 2px solid black;
+    display: flex;
+}
+
 
 .pic{
     position: absolute;
     width: 18.9rem;
-    height: 25.2rem;
-    left: 0rem;
-    top: -6.625rem;
+    height: 18.2rem;
+    background:  #edb306;
+    border-radius: 0 0 5rem 5rem;
+}
 
-    background: url(https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
-    border-radius: 6.625rem;
+.imgprop{
+    position: absolute;
+    top: 5rem;
+    left: 4.5rem;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
 }
 
 .textDiv{
@@ -28,6 +46,8 @@
 
     background: #ffffff00;
 }
+
+/* TOP HALF RECTANGLES*/
 
 .rec1{
     position: absolute;
@@ -43,7 +63,7 @@
     position: absolute;
     width: 1.25rem;
     height: 8.75rem;
-    left: 36rem;
+    left: 35.95rem;
     top: 0rem;
 
     background: #EDB506;
@@ -51,10 +71,10 @@
 
 .rec3{
     position: absolute;
-    width: 9rem;
+    width: 12.14rem;
     height: 1.5rem;
-    left: 27.75rem;
-    top: 7.25rem;
+    left: 25.04rem;
+    top: 7.710rem;
 
     background: #EDB506;
 }
@@ -63,9 +83,303 @@
     position: absolute;
     width: 1.508rem;
     height: 6.725rem;
-    left: 25.131rem;
-    top: 6.807rem;
+    left: 22.54rem;
+    top: 7.244rem;
 
     background: #EDB506;
     transform: rotate(45deg);
+}
+
+.rec5{
+    position: absolute;
+    width: 1.5rem;
+    height: 4.563rem;
+    left: 20.375rem;
+    top: 12.46rem;
+
+    background: #EDB506;
+}
+
+.rec6{
+    position: absolute;
+    width: 15.375rem;
+    height: 1.5rem;
+    left: 21.875rem;
+    top: 15.52rem;
+
+    background: #EDB506;
+}
+
+.rec7{
+    position: absolute;
+    width: 1.5rem;
+    height: 2rem;
+    left: 35.75rem;
+    top: 16.563rem;
+
+    background: #EDB506;
+}
+
+/* TOP HALF FONT SETTINGS*/
+
+.fontOne{
+    position: absolute;
+    width: 6.188rem;
+    height: 1.375rem;
+    left: 0.913rem;
+    top: 1.438rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #0075FF;
+}
+
+.fontTwo{
+    position: absolute;
+    width: 14.188rem;
+    height: 2.5rem;
+    left: 2.188rem;
+    top: 3.25rem;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.fontThree{
+    position: absolute;
+    width: 7.625rem;
+    height: 1.438rem;
+    left: 6.5rem;
+    top: 5.313rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+.fontFour{
+    position: absolute;
+    width: 6.188rem;
+    height: 1.375frem;
+    left: 8.625rem;
+    top: 8.938rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #0075FF;
+}
+
+.fontFive{
+    position: absolute;
+    width: 7.625rem;
+    height: 1.188rem;
+    left: 8.25rem;
+    top: 10.5rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.fontSix{
+    position: absolute;
+    width: 10.5rem;
+    height: 1.188rem;
+    left: 6.5rem;
+    top: 11.875rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.fontSeven{
+    position: absolute;
+    width: 14.438rem;
+    height: 1.188rem;
+    left: 4.5rem;
+    top: 13.5rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.iconprop1{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 7rem;
+    top: 11.07rem;
+}
+
+.iconprop2{
+    position: absolute;
+    width: 1.25rem;
+    height: 1.25rem;
+    left: 4.8rem;
+    top: 12.4rem;
+}
+
+.iconprop3{
+    position: absolute;
+    width: 1.125rem;
+    height: 1.125rem;
+    left: 3.3rem;
+    top: 14rem;
+}
+
+/* BOTTOM HALF */
+
+
+.borderOne{
+    position: absolute;
+    width: 12px;
+    height: 595px;
+    left: 18.22rem;
+    top: -18.22rem;
+
+    background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
+    transform: rotate(-90deg);
+}
+
+.borderTwo{
+    position: absolute;
+    width: 12px;
+    height: 285px;
+    left: 0px;
+    top: 12px;
+
+    background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
+}
+
+.borderThree{
+    position: absolute;
+    width: 12px;
+    height: 583px;
+    left: 18.59rem;
+    top: -0.04rem;
+    
+    background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
+    transform: rotate(90deg);
+}
+
+.borderFour{
+    position: absolute;
+    width: 12px;
+    height: 273px;
+    left: 36.44rem;
+    top: 0.742rem;
+    
+    background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
+    transform: rotate(-180deg);
+}
+
+/* BOTTOM HALF RECTANGLES*/
+
+.brec1{
+    position: absolute;
+    width: 119.05px;
+    height: 98.91px;
+    left: 27.84px;
+    top: 32px;
+    
+    background: #D9D9D9;
+    transform: rotate(3.39deg);
+}
+
+.brec2{
+    position: absolute;
+    width: 133.43px;
+    height: 102.59px;
+    left: 20px;
+    top: 162.99px;
+    
+    background: #686363;
+    transform: matrix(0.99, -0.15, 0.16, 0.99, 0, 0);
+}
+
+.brec3{
+    position: absolute;
+    width: 128.76px;
+    height: 72.08px;
+    left: 180px;
+    top: 198.25px;
+    
+    background: #CFC8C8;
+    transform: rotate(-1deg);    
+}
+
+.brec4{
+    position: absolute;
+    width: 110px;
+    height: 73.7px;
+    left: 328px;
+    top: 203.59px;
+    
+    background: #5E5E5E;
+    transform: rotate(-5deg);    
+}
+
+.brec5{
+    position: absolute;
+    width: 91.02px;
+    height: 57.9px;
+    left: 477.06px;
+    top: 177px;
+    
+    background: #9D9A9A;
+    transform: rotate(8deg);
+}
+
+.brec6{
+    position: absolute;
+    width: 98.53px;
+    height: 74.93px;
+    left: 474px;
+    top: 52.15px;
+    
+    background: #BCB9B9;
+    transform: rotate(-3deg);
+}
+
+.brec7{
+    position: absolute;
+    width: 119.05px;
+    height: 98.91px;
+    left: 27.84px;
+    top: 32px;
+    
+    background: #D9D9D9;
+    transform: rotate(3.39deg);
 }
