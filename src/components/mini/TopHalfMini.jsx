@@ -1,4 +1,5 @@
 import styles from './ministyles.module.css'
+import stylesx from '../styles/styles.module.css'
 import logo from '../../img/doggie.png'
 import TheTextDivMini from './TheTextDivMini'
 
@@ -6,7 +7,7 @@ import TheTextDivMini from './TheTextDivMini'
 
 function TopHalfMini(){
     return(
-        <div className={styles.dimensions}>
+        <div className={`${styles.dimensions} + ${stylesx.hvrpulseshrink}`}>
             <div className={styles.card1}>
                 <div>
                     <div className={styles.rec1}></div>

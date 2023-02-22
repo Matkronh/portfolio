@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 import BottomHalf from "./components/BottomHalf"
-/* import TopHalf from "./components/TopHalf" */
 import styles from './components/styles/styles.module.css'
 import TopHalf from './components/TopHalf'
 import Ommeg from './components/routes/ommeg'
@@ -9,6 +8,12 @@ import Skills from './components/routes/skills'
 import Portfolio from './components/routes/portfolio'
 import Referanse from './components/routes/referanse'
 import Erfaring from './components/routes/erfaring'
+
+
+/* 
+  BottomHalf = layout
+  Tophalf = Landing Page
+ */
 
 function App() {
 

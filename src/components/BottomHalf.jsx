@@ -18,7 +18,7 @@ function BottomHalf(){
                 <div className={styles.borderThree}></div>
                 <div className={styles.borderFour}></div>
 
-                <div className={`${styles.brec8} + ${styles.hvrpulseshrink}`}><Link to='/'><TopHalfMini /></Link></div>
+                <div className={styles.brec8}><Link to='/'><TopHalfMini /></Link></div>
 
                 <Link className={`${styles.brec2} + ${styles.hvrwobbletop}`} to='/utdanning'><br/><h2 className={styles.brectext}>Utdanning</h2></Link>
                 <Link className={`${styles.brec3} + ${styles.hvrwobbletop}`} to='/skills'><br/><h2 className={styles.brectext2}>Skills</h2></Link>
