@@ -5,7 +5,7 @@
     height: 18.563rem;
     margin: auto;
     position: relative;
-    background: #ffffff;
+    background: #87ddfd;
     border: 2px solid black;
 }
 
@@ -481,4 +481,23 @@
     margin-right: 10px;
     margin-top: 5px;
     margin-left: 5px;
+}
+
+.h1text{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(220, 230, 92);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-bottom: 0px;
+}
+
+.h2text{
+    font-size: 20px;
+    color:#000000;
+    margin-left: 8rem;
+}
+
+.pt{
+    font-size: 14px;
+    margin-top: 0px;
 }
