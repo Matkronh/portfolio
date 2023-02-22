@@ -1,0 +1,251 @@
+.dimensions{
+    width: 18.5rem;
+    height: 9.25rem;
+    margin: auto;
+    position: relative;
+    background: #ffffff;
+    border: 2px solid black;
+    transform: rotate(-4.45deg);
+    left: 10rem;
+    top: 1.6rem;
+}
+
+.dimensions:hover{
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #e61616;
+}
+
+.imgprop{
+    position: absolute;
+    top: 2.5rem;
+    left: 2.25rem;
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+}
+
+.pic{
+    position: absolute;
+    width: 9.45rem;
+    height: 9.1rem;
+    background:  #edb306;
+    border-radius: 0 0 5rem 5rem;
+}
+
+.rec1{
+    position: absolute;
+    width: 8.6875rem;
+    height: 0.75rem;
+    left: 9.3125rem;
+    top: 0rem;
+
+    background: #edb306;
+}
+
+.rec2{
+    position: absolute;
+    width: 0.625rem;
+    height: 4.375rem;
+    left: 17.9rem;
+    top: 0rem;
+
+    background: #EDB506;
+}
+
+.rec3{
+    position: absolute;
+    width: 6.07rem;
+    height: 0.75rem;
+    left: 12.04rem;
+    top: 3.630rem;
+
+    background: #EDB506;
+}
+
+.rec4{
+    position: absolute;
+    width: 0.75rem;
+    height: 3.725rem;
+    left: 10.62rem;
+    top: 3.374rem;
+
+    background: #EDB506;
+    transform: rotate(45deg);
+}
+
+.rec5{
+    position: absolute;
+    width: 0.75rem;
+    height: 2.25rem;
+    left: 9.412rem;
+    top: 6.26rem;
+
+    background: #EDB506;
+}
+
+.rec6{
+    position: absolute;
+    width: 8.42em;
+    height: 0.75rem;
+    left: 10.075rem;
+    top: 7.76rem;
+
+    background: #EDB506;
+}
+
+.rec7{
+    position: absolute;
+    width: 0.75rem;
+    height: 0.747rem;
+    left: 17.75rem;
+    top: 8.50rem;
+
+    background: #EDB506;
+}
+
+.textDiv{
+    position: absolute;
+    width: 9.2815rem;
+    height: 9.281rem;
+    left: 9.3125rem;
+    top: 0rem;
+
+    background: #ffffff00;
+}
+
+.fontOne{
+    position: absolute;
+    width: 3.188rem;
+    height: 0.687rem;
+    left: 0.4513rem;
+    top: 0.75rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 8.5px;
+
+    color: #0075FF;
+}
+
+.fontTwo{
+    position: absolute;
+    width: 7.188rem;
+    height: 1.25rem;
+    left: 1.188rem;
+    top: 1.225rem;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    
+    color: #000000;
+}
+
+.fontThree{
+    position: absolute;
+    width: 3.625rem;
+    height: 0.838rem;
+    left: 3.25rem;
+    top: 2.313rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 7px;
+    line-height: 8.5px;
+
+    color: #000000;
+}
+
+.fontFour{
+    position: absolute;
+    width: 3.188rem;
+    height: 0.775frem;
+    left: 4.225rem;
+    top: 4.238rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 8.5px;
+
+    color: #0075FF;
+}
+
+.fontFive{
+    position: absolute;
+    width: 3.825rem;
+    height: 0.6788rem;
+    left: 4.05rem;
+    top: 5rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 7.5px;
+
+    color: #000000;
+}
+
+.fontSix{
+    position: absolute;
+    width: 5.25rem;
+    height: 0.688rem;
+    left: 3.25rem;
+    top: 5.675rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 7.5px;
+    text-decoration-line: underline;
+
+    color: #000000;
+}
+
+.fontSeven{
+    position: absolute;
+    width: 7.438rem;
+    height: 0.688rem;
+    left: 2.25rem;
+    top: 6.5rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 7.5px;
+
+    color: #000000;
+}
+
+.iconprop1{
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 3.5rem;
+    top: 5.3rem;
+}
+
+.iconprop2{
+    position: absolute;
+    width: 0.75rem;
+    height: 0.75rem;
+    left: 2.38rem;
+    top: 5.9rem;
+}
+
+.iconprop3{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    left: 1.5rem;
+    top: 6.75rem;
+}

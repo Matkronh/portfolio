@@ -264,8 +264,8 @@
 
 .borderOne{
     position: absolute;
-    width: 12px;
-    height: 595px;
+    width: 0.75rem;
+    height: 37.188rem;
     left: 18.22rem;
     top: -18.22rem;
 
@@ -275,18 +275,18 @@
 
 .borderTwo{
     position: absolute;
-    width: 12px;
-    height: 285px;
-    left: 0px;
-    top: 12px;
+    width: 0.75rem;
+    height: 17.813rem;
+    left: 0rem;
+    top: 0.75rem;
 
     background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
 }
 
 .borderThree{
     position: absolute;
-    width: 12px;
-    height: 583px;
+    width: 0.75rem;
+    height: 36.438rem;
     left: 18.59rem;
     top: -0.04rem;
     
@@ -296,8 +296,8 @@
 
 .borderFour{
     position: absolute;
-    width: 12px;
-    height: 273px;
+    width: 0.75rem;
+    height: 17.063rem;
     left: 36.44rem;
     top: 0.742rem;
     
@@ -309,21 +309,23 @@
 
 .brec1{
     position: absolute;
-    width: 119.05px;
-    height: 98.91px;
-    left: 27.84px;
-    top: 32px;
+    width: 7.441rem;
+    height: 6.182rem;
+    left: 1.74rem;
+    top: 2rem;
     
     background: #D9D9D9;
     transform: rotate(3.39deg);
 }
 
+
+
 .brec2{
     position: absolute;
-    width: 133.43px;
-    height: 102.59px;
-    left: 20px;
-    top: 162.99px;
+    width: 8.339rem;
+    height: 6.412rem;
+    left: 1.25rem;
+    top: 10.187rem;
     
     background: #686363;
     transform: matrix(0.99, -0.15, 0.16, 0.99, 0, 0);
@@ -331,10 +333,10 @@
 
 .brec3{
     position: absolute;
-    width: 128.76px;
-    height: 72.08px;
-    left: 180px;
-    top: 198.25px;
+    width: 8.047rem;
+    height: 4.505rem;
+    left: 11.25rem;
+    top: 12.391rem;
     
     background: #CFC8C8;
     transform: rotate(-1deg);    
@@ -342,10 +344,10 @@
 
 .brec4{
     position: absolute;
-    width: 110px;
-    height: 73.7px;
-    left: 328px;
-    top: 203.59px;
+    width: 6.875rem;
+    height: 4.606rem;
+    left: 20.5rem;
+    top: 12.724rem;
     
     background: #5E5E5E;
     transform: rotate(-5deg);    
@@ -353,10 +355,10 @@
 
 .brec5{
     position: absolute;
-    width: 91.02px;
-    height: 57.9px;
-    left: 477.06px;
-    top: 177px;
+    width: 5.689rem;
+    height: 3.619rem;
+    left: 29.816rem;
+    top: 11.063rem;
     
     background: #9D9A9A;
     transform: rotate(8deg);
@@ -364,10 +366,10 @@
 
 .brec6{
     position: absolute;
-    width: 98.53px;
-    height: 74.93px;
-    left: 474px;
-    top: 52.15px;
+    width: 6.158rem;
+    height: 4.683rem;
+    left: 29.625rem;
+    top: 3.259rem;
     
     background: #BCB9B9;
     transform: rotate(-3deg);
@@ -375,11 +377,108 @@
 
 .brec7{
     position: absolute;
-    width: 119.05px;
-    height: 98.91px;
-    left: 27.84px;
-    top: 32px;
+    width: 7.441rem;
+    height: 4.932rem;
+    left: 1.74rem;
+    top: 2rem;
     
     background: #D9D9D9;
     transform: rotate(3.39deg);
+}
+
+.brec2:hover{
+    left: 1.063rem;
+    top: 9.437rem;
+    width: 25%;
+    height: 35%;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #e61616;
+}
+
+.brec3:hover{
+    left: 10.625rem;
+    top: 11.766rem;
+    width: 25%;
+    height: 25%;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #e61616;
+}
+
+.brec4:hover{
+    left: 19.875rem;
+    top: 12.474rem;
+    width: 22%;
+    height: 25%;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #e61616;
+}
+
+.brec5:hover{
+    left: 27.941rem;
+    top: 10.438rem;
+    width: 20%;
+    height: 23%;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #e61616;
+}
+
+.brec6:hover{
+    left: 29rem;
+    top: 2.634rem;
+    width: 18%;
+    height: 27%;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #e61616;
+}
+
+.brec7:hover{
+    left: 1.115rem;
+    top: 1.375rem;
+    width: 23%;
+    height: 30%;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #e61616;
+}
+
+.brectext{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 17px;
+    
+    color: #0075FF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.brectext2{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 17px;
+    
+    color: #0075FF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.brectext3{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    
+    color: #0075FF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
 }

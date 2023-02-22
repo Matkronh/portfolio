@@ -1,6 +1,6 @@
 import BottomHalf from "./components/BottomHalf"
 import TopHalf from "./components/TopHalf"
-import styles from './components/styles.module.css'
+import styles from './components/styles/styles.module.css'
 
 function App() {
 
