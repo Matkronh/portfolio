@@ -1,17 +1,18 @@
 
 /* TOP HALF CONTAINERS */
 .dimensions{
-    width: 37.188rem;
-    height: 18.563rem;
+    width: 40rem;
+    height: 20rem;
     margin: auto;
     position: relative;
     background: #87ddfd;
     border: 2px solid black;
 }
 
+
 .dimensions2{
-    width: 37.188rem;
-    height: 18.563rem;
+    width: 40rem;
+    height: 20rem;
     margin: auto;
     position: relative;
     background: #ffffff;
@@ -22,8 +23,8 @@
 
 .pic{
     position: absolute;
-    width: 18.9rem;
-    height: 18.2rem;
+    width: 20rem;
+    height: 20rem;
     background:  #edb306;
     border-radius: 0 0 5rem 5rem;
 }
@@ -39,9 +40,9 @@
 
 .textDiv{
     position: absolute;
-    width: 18.563rem;
-    height: 18.563rem;
-    left: 18.625rem;
+    width: 20rem;
+    height: 20rem;
+    left: 20rem;
     top: 0rem;
 
     background: #ffffff00;
@@ -51,9 +52,9 @@
 
 .rec1{
     position: absolute;
-    width: 17.375rem;
-    height: 1.25rem;
-    left: 18.625rem;
+    width: 20rem;
+    height: 1rem;
+    left: 20rem;
     top: 0rem;
 
     background: #edb306;
@@ -61,30 +62,30 @@
 
 .rec2{
     position: absolute;
-    width: 1.25rem;
-    height: 8.75rem;
-    left: 35.95rem;
-    top: 0rem;
+    width: 1rem;
+    height: 7rem;
+    left: 39rem;
+    top: 1rem;
 
     background: #EDB506;
 }
 
 .rec3{
     position: absolute;
-    width: 12.14rem;
-    height: 1.5rem;
-    left: 25.04rem;
-    top: 7.710rem;
+    width: 14rem;
+    height: 1rem;
+    left: 26rem;
+    top: 8rem;
 
     background: #EDB506;
 }
 
 .rec4{
     position: absolute;
-    width: 1.508rem;
-    height: 6.725rem;
-    left: 22.54rem;
-    top: 7.244rem;
+    width: 1rem;
+    height: 7.1rem;
+    left: 23.32rem;
+    top: 7.35rem;
 
     background: #EDB506;
     transform: rotate(45deg);
@@ -92,30 +93,30 @@
 
 .rec5{
     position: absolute;
-    width: 1.5rem;
-    height: 4.563rem;
-    left: 20.375rem;
-    top: 12.46rem;
+    width: 1rem;
+    height: 4rem;
+    left: 21rem;
+    top: 13rem;
 
     background: #EDB506;
 }
 
 .rec6{
     position: absolute;
-    width: 15.375rem;
-    height: 1.5rem;
-    left: 21.875rem;
-    top: 15.52rem;
+    width: 18rem;
+    height: 1rem;
+    left: 22rem;
+    top: 16rem;
 
     background: #EDB506;
 }
 
 .rec7{
     position: absolute;
-    width: 1.5rem;
-    height: 2rem;
-    left: 35.75rem;
-    top: 16.563rem;
+    width: 1rem;
+    height: 3rem;
+    left: 39rem;
+    top: 17rem;
 
     background: #EDB506;
 }
@@ -264,10 +265,10 @@
 
 .borderOne{
     position: absolute;
-    width: 0.75rem;
-    height: 37.188rem;
-    left: 18.22rem;
-    top: -18.22rem;
+    width: 1rem;
+    height: 40rem;
+    left: 19.5rem;
+    top: -20rem;
 
     background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
     transform: rotate(-90deg);
@@ -275,20 +276,20 @@
 
 .borderTwo{
     position: absolute;
-    width: 0.75rem;
-    height: 17.813rem;
+    width: 1rem;
+    height: 18.5rem;
     left: 0rem;
-    top: 0.75rem;
+    top: 0.5rem;
 
     background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
 }
 
 .borderThree{
     position: absolute;
-    width: 0.75rem;
-    height: 36.438rem;
-    left: 18.59rem;
-    top: -0.04rem;
+    width: 1rem;
+    height: 40rem;
+    left: 19.5rem;
+    top: -0.5rem;
     
     background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
     transform: rotate(90deg);
@@ -296,10 +297,10 @@
 
 .borderFour{
     position: absolute;
-    width: 0.75rem;
-    height: 17.063rem;
-    left: 36.44rem;
-    top: 0.742rem;
+    width: 1rem;
+    height: 18.5rem;
+    left: 39rem;
+    top: 0.5rem;
     
     background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
     transform: rotate(-180deg);
@@ -307,25 +308,12 @@
 
 /* BOTTOM HALF RECTANGLES*/
 
-.brec1{
-    position: absolute;
-    width: 7.441rem;
-    height: 6.182rem;
-    left: 1.74rem;
-    top: 2rem;
-    
-    background: #D9D9D9;
-    transform: rotate(3.39deg);
-}
-
-
-
 .brec2{
     position: absolute;
-    width: 8.339rem;
-    height: 6.412rem;
-    left: 1.25rem;
-    top: 10.187rem;
+    width: 8rem;
+    height: 6rem;
+    left: 2rem;
+    top: 10rem;
     
     background: #686363;
     transform: matrix(0.99, -0.15, 0.16, 0.99, 0, 0);
@@ -333,10 +321,10 @@
 
 .brec3{
     position: absolute;
-    width: 8.047rem;
-    height: 4.505rem;
-    left: 11.25rem;
-    top: 12.391rem;
+    width: 8rem;
+    height: 5rem;
+    left: 11rem;
+    top: 13rem;
     
     background: #CFC8C8;
     transform: rotate(-1deg);    
@@ -344,10 +332,10 @@
 
 .brec4{
     position: absolute;
-    width: 6.875rem;
-    height: 4.606rem;
-    left: 20.5rem;
-    top: 12.724rem;
+    width: 7rem;
+    height: 5rem;
+    left: 22rem;
+    top: 13rem;
     
     background: #5E5E5E;
     transform: rotate(-5deg);    
@@ -355,10 +343,10 @@
 
 .brec5{
     position: absolute;
-    width: 5.689rem;
-    height: 3.619rem;
-    left: 29.816rem;
-    top: 11.063rem;
+    width: 6rem;
+    height: 4rem;
+    left: 31rem;
+    top: 11rem;
     
     background: #9D9A9A;
     transform: rotate(8deg);
@@ -366,10 +354,10 @@
 
 .brec6{
     position: absolute;
-    width: 6.158rem;
-    height: 4.683rem;
-    left: 29.625rem;
-    top: 3.259rem;
+    width: 7rem;
+    height: 5rem;
+    left: 31rem;
+    top: 3rem;
     
     background: #BCB9B9;
     transform: rotate(-3deg);
@@ -377,65 +365,17 @@
 
 .brec7{
     position: absolute;
-    width: 7.441rem;
-    height: 4.932rem;
-    left: 1.74rem;
+    width: 7rem;
+    height: 5rem;
+    left: 2rem;
     top: 2rem;
     
     background: #D9D9D9;
     transform: rotate(3.39deg);
 }
 
-.brec2:hover{
-    left: 1.063rem;
-    top: 9.437rem;
-    width: 25%;
-    height: 35%;
-    border-color: #9ecaed;
-    box-shadow: 0 0 10px #e61616;
-}
 
-.brec3:hover{
-    left: 10.625rem;
-    top: 11.766rem;
-    width: 25%;
-    height: 25%;
-    border-color: #9ecaed;
-    box-shadow: 0 0 10px #e61616;
-}
-
-.brec4:hover{
-    left: 19.875rem;
-    top: 12.474rem;
-    width: 22%;
-    height: 25%;
-    border-color: #9ecaed;
-    box-shadow: 0 0 10px #e61616;
-}
-
-.brec5:hover{
-    left: 27.941rem;
-    top: 10.438rem;
-    width: 20%;
-    height: 23%;
-    border-color: #9ecaed;
-    box-shadow: 0 0 10px #e61616;
-}
-
-.brec6:hover{
-    left: 29rem;
-    top: 2.634rem;
-    width: 18%;
-    height: 27%;
-    border-color: #9ecaed;
-    box-shadow: 0 0 10px #e61616;
-}
-
-.brec7:hover{
-    left: 1.115rem;
-    top: 1.375rem;
-    width: 23%;
-    height: 30%;
+.brec2:hover, .brec3:hover, .brec4:hover, .brec5:hover, .brec6:hover, .brec7:hover{
     border-color: #9ecaed;
     box-shadow: 0 0 10px #e61616;
 }
@@ -483,6 +423,9 @@
     margin-left: 5px;
 }
 
+
+/* CARD FONT SETTINGS */
+
 .h1text{
     font-size: 40px;
     text-align: center;
@@ -501,3 +444,110 @@
     font-size: 14px;
     margin-top: 0px;
 }
+
+
+/* TEST */ 
+
+@-webkit-keyframes hvr-wobble-top {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  @keyframes hvr-wobble-top {
+    16.65% {
+      -webkit-transform: skew(-12deg);
+      transform: skew(-12deg);
+    }
+    33.3% {
+      -webkit-transform: skew(10deg);
+      transform: skew(10deg);
+    }
+    49.95% {
+      -webkit-transform: skew(-6deg);
+      transform: skew(-6deg);
+    }
+    66.6% {
+      -webkit-transform: skew(4deg);
+      transform: skew(4deg);
+    }
+    83.25% {
+      -webkit-transform: skew(-2deg);
+      transform: skew(-2deg);
+    }
+    100% {
+      -webkit-transform: skew(0);
+      transform: skew(0);
+    }
+  }
+  .hvrwobbletop {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+  }
+  .hvrwobbletop:hover, .hvrwobbletop:focus, .hvrwobbletop:active {
+    -webkit-animation-name: hvr-wobble-top;
+    animation-name: hvr-wobble-top;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+  @-webkit-keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse-shrink {
+    to {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  .hvrpulseshrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvrpulseshrink:hover, .hvrpulseshrink:focus, .hvrpulseshrink:active {
+    -webkit-animation-name: hvr-pulse-shrink;
+    animation-name: hvr-pulse-shrink;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
