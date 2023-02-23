@@ -1,4 +1,5 @@
 import styles from './styles/styles.module.css'
+import stylesx from './styles/squares.module.css'
 import logo from '../img/doggie.png'
 import TheTextDiv from './TheTextDiv'
 
@@ -9,13 +10,13 @@ function TopHalf(){
         <div className={styles.dimensions}>
             <div className={styles.card1}>
                 <div>
-                    <div className={styles.rec1}></div>
-                    <div className={styles.rec2}></div>
-                    <div className={styles.rec3}></div>
-                    <div className={styles.rec4}></div>
-                    <div className={styles.rec5}></div>
-                    <div className={styles.rec6}></div>
-                    <div className={styles.rec7}></div>
+                    <div className={stylesx.rec1}></div>
+                    <div className={stylesx.rec2}></div>
+                    <div className={stylesx.rec3}></div>
+                    <div className={stylesx.rec4}></div>
+                    <div className={stylesx.rec5}></div>
+                    <div className={stylesx.rec6}></div>
+                    <div className={stylesx.rec7}></div>
                 </div>
                 <div className={styles.pic}><img className={styles.imgprop} src={logo} /></div>
                 <TheTextDiv 
