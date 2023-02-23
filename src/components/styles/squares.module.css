@@ -1,3 +1,5 @@
+/* TOP HALF RECTANGLES*/
+
 .rec1{
     position: absolute;
     width: 20rem;
@@ -69,6 +71,8 @@
     background: #EDB506;
 }
 
+/* BOTTOM HALF RECTANGLES*/
+
 .borderOne{
     position: absolute;
     width: 1rem;
@@ -111,8 +115,6 @@
     background: linear-gradient(180deg, #42FF00 0%, #00C2FF 100%);
     transform: rotate(-180deg);
 }
-
-/* BOTTOM HALF RECTANGLES*/
 
 .brec2{
     position: absolute;

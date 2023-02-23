@@ -1,5 +1,6 @@
 
 /* TOP HALF CONTAINERS */
+
 .dimensions{
     width: 40rem;
     height: 20rem;
@@ -259,7 +260,7 @@
 }
 
 
-/* TEST */ 
+/* ANIMATIONS */ 
 
 @-webkit-keyframes hvr-wobble-top {
     16.65% {
