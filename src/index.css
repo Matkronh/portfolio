@@ -1,7 +1,10 @@
 #root{
     margin: 0;
-    background-color: rgb(56, 56, 56);
-    height: 100rem;
+    /* background-color: rgb(201, 170, 170); */
+    background-image: url(img/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 body{

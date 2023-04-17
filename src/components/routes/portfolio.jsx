@@ -1,6 +1,6 @@
 import styles from '../styles/styles.module.css'
 
-function Portfolio(){
+function Portfoliox(){
     return(
         <div className={styles.dimensions}>
             <h1 className={styles.h1text}>Min Portfolio</h1>
@@ -11,4 +11,4 @@ function Portfolio(){
     )
 }
 
-export default Portfolio
+export default Portfoliox
