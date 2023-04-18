@@ -1,4 +1,9 @@
 /* TOP HALF RECTANGLES*/
+.placeholder{
+    background: black;
+    width: 8rem;
+    height: 4rem;
+}
 
 .rec1{
     position: absolute;

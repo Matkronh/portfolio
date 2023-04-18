@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
 import BottomHalf from "./components/BottomHalf"
 import styles from './components/styles/styles.module.css'
-import TopHalf from './components/TopHalf'
 import Ommeg from './components/routes/ommeg'
 import Utdanning from './components/routes/utdanning'
 import Skills from './components/routes/skills'
 import Portfoliox from './components/routes/portfolio'
 import Referanse from './components/routes/referanse'
 import Erfaring from './components/routes/erfaring'
+import EmptySpace from './components/EmptySpace'
 
 
 /* 
@@ -22,7 +22,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<BottomHalf />}>
-            <Route index element={<TopHalf />}/>
+            <Route index element={<EmptySpace />}/>
             <Route path='ommeg' element={<Ommeg />}/>
             <Route path='utdanning' element={<Utdanning />}/>
             <Route path='skills' element={<Skills />}/>

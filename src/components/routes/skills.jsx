@@ -2,7 +2,7 @@ import styles from '../styles/styles.module.css'
 
 function Skills(){
     return(
-        <div className={styles.dimensions}>
+        <div className={styles.dimensions2}>
             <h1 className={styles.h1text}>Mine Skills</h1>
             <h2 className={styles.h2text}>1. CSS</h2>
             <h2 className={styles.h2text}>2. C#</h2>
