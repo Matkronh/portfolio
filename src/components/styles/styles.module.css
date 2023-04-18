@@ -6,7 +6,11 @@
 .placeholdertext{
   color: white;
   margin: auto;
-  font-size: 25px;
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  left: 3rem;
+  top: 0.25rem;
 }
 
 .flexi{
@@ -17,8 +21,8 @@
 /* TOP HALF CONTAINERS */
 
 .dimensions{
-    width: 75rem;
-    height: 50rem;
+    width: 56.25rem;
+    height: 37.5rem;
     margin: 2rem;
     position: relative;
     background: #c7c9c9;
@@ -28,14 +32,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    left: 50rem;
-    top: 5rem;
+    left: 46rem;
+    top: 7rem;
 }
 
 
 .dimensions2{
-    width: 41.625rem;
-    height: 62.5rem;
+    width: 31.21875rem;
+    height: 46.875rem;
     margin: 2rem;
     position: absolute;
     background: #ffffff;
@@ -43,8 +47,8 @@
     background-image: url(/src/img/vv.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    top: 5rem;
-    left: 4.5rem;
+    top: 7rem;
+    left: 10rem;
 }
 
 
@@ -81,15 +85,15 @@
 
 .fontOne{
     position: absolute;
-    width: 8rem;
-    height: 2rem;
-    left: 1rem;
-    top: -6rem;
+    width: 4rem;
+    height: 1rem;
+    left: -7rem;
+    top: -9.8rem;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 44px;
+    font-size: 34px;
     line-height: 17px;
 
     color: #0075FF;
@@ -99,13 +103,13 @@
     position: absolute;
     width: 25rem;
     height: 3rem;
-    left: -2rem;
-    top: -2rem;
+    left: -8.4rem;
+    top: -7.5rem;
     
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 24px;
     
     color: #f5ecec;
@@ -115,8 +119,8 @@
     position: absolute;
     width: 18rem;
     height: 2rem;
-    left: 4rem;
-    top: 2rem;
+    left: -4rem;
+    top: -5rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -131,8 +135,8 @@
     position: absolute;
     width: 18rem;
     height: 2frem;
-    left: -5rem;
-    top: 4rem;
+    left: -10.5rem;
+    top: -3rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -147,8 +151,8 @@
     position: absolute;
     width: 18rem;
     height: 2rem;
-    left: -4rem;
-    top: 9rem;
+    left: -10rem;
+    top: 0.5rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -163,8 +167,8 @@
     position: absolute;
     width: 10.5rem;
     height: 1.188rem;
-    left: -2rem;
-    top: 11.875rem;
+    left: -9rem;
+    top: 4rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -180,13 +184,13 @@
     position: absolute;
     width: 32.438rem;
     height: 1.188rem;
-    left: 1rem;
-    top: 16rem;
+    left: -4.8rem;
+    top: 13.5rem;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 18px;
     line-height: 15px;
 
     color: #f7f7f7;
@@ -196,24 +200,24 @@
     position: absolute;
     width: 3rem;
     height: 3rem;
-    left: -7rem;
-    top: 9.7rem;
+    left: -13rem;
+    top: 1.3rem;
 }
 
 .iconprop2{
     position: absolute;
     width: 3rem;
     height: 3rem;
-    left: -6rem;
-    top: 13rem;
+    left: -12.4rem;
+    top: 4.8rem;
 }
 
 .iconprop3{
     position: absolute;
     width: 3rem;
     height: 3rem;
-    left: -3rem;
-    top: 16.5rem;
+    left: -1.2rem;
+    top: 10.7rem;
 }
 
 

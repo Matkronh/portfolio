@@ -1,8 +1,12 @@
 /* TOP HALF RECTANGLES*/
 .placeholder{
-    background: black;
-    width: 8rem;
-    height: 4rem;
+    background: rgba(0, 0, 0, 0);
+    width: 9.919rem;
+    height: 1.522rem;
+    background-image: url(/src/img/123.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0.5rem;
 }
 
 .rec1{
