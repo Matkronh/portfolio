@@ -1,8 +1,8 @@
-
+import styles from './styles/styles.module.css'
 
 function EmptySpace(){
     return(
-        <div>
+        <div className={styles.empty}>
 
         </div>
     )

@@ -1,4 +1,18 @@
 
+.empty{
+    width: 31.21875rem;
+    height: 46.875rem;
+    margin: 2rem;
+    position: absolute;
+    background: #ffffff;
+    background-image: url(/src/img/6057926.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 7rem;
+    left: 10rem;
+    border: 3px solid rgb(0, 0, 0);
+}
+
 .app{
   display: flex;
 }

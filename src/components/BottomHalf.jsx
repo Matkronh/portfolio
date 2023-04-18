@@ -25,6 +25,7 @@ function BottomHalf(){
                 <Link className={`${stylesx.placeholder} + ${styles.hvrwobbletop}`} to='/referanse'> <br/><h2 className={styles.placeholdertext}>Referanse</h2></Link>
                 <Link className={`${stylesx.placeholder} + ${styles.hvrwobbletop}`} to='/erfaring'><br/><h2 className={styles.placeholdertext}>Erfaring</h2></Link>
                 <Link className={`${stylesx.placeholder} + ${styles.hvrwobbletop}`} to='/ommeg'><br/><h2 className={styles.placeholdertext}>Om Meg</h2></Link>
+                <Link className={`${stylesx.placeholder} + ${styles.hvrwobbletop}`} to='/'><br/><h2 className={styles.placeholdertext}>Close</h2></Link>
             </div>
 
             <TheTextDiv 
