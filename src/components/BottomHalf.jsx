@@ -3,7 +3,7 @@ import stylesx from './styles/squares.module.css'
 import { Link, Outlet } from 'react-router-dom'
 import './styles/styles.module.css'
 import TheTextDiv from './TheTextDiv'
-
+import Header from './header'
 function BottomHalf(){
 
     
@@ -35,6 +35,8 @@ function BottomHalf(){
                     mail="mats.kodehode@gmail.com"
                     adress="Vestre Julegaten 949438"
                 />
+
+                <Header />
             
         </div>
         </div>
