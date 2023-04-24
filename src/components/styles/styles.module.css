@@ -1,53 +1,96 @@
-.header{
-  width: 80rem;
-  height: 8rem;
-  border: 3px solid rbg(0, 0, 0);
-  position: absolute;
-  background-image: url(/src/img/header.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: 39rem;
-  left: 0rem;
-}
-
-.header2{
-  width: 80rem;
-  height: 8rem;
-  border: 3px solid rbg(0, 0, 0);
-  position: absolute;
-  background-image: url(/src/img/header.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: 39rem;
-  left: 28.5rem;
-}
-
-.empty{
-    width: 31.21875rem;
-    height: 46.875rem;
-    margin: 2rem;
-    position: absolute;
-    background: #ffffff;
-    background-image: url(/src/img/6057926.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 2rem;
-    left: 60.25rem;
-    border: 3px solid rgb(0, 0, 0);
-}
-
 .app{
   display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }
 
-.placeholdertext{
+.dimensions{
+  width: 10rem;
+  height:7rem;
+  background: #c7c9c9;
+  border: 2px solid black;
+  border-style: double;
+  background-image: url(/src/img/5376547.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: auto;
+}
+
+.dimensions2{
+  width: 10rem;
+  height: 14rem;
+  position: relative;
+  background: #ffffff;
+  border: 2px solid black;
+  background-image: url(/src/img/vv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+.dimensions3{
+  width: 10rem;
+  height: 7rem;
+  position: relative;
+  background: #ffffff;
+  border: 2px solid black;
+  background-image: url(/src/img/6057926.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+
+
+@media (min-width: 600px) {
+  .app{
+    width: 100%;
+    justify-content: center;
+    position: inherit;
+  }
+
+  .dimensions {
+    width: 50rem;
+    height: 40rem;
+  }
+
+  .dimensions2 {
+    width: 50rem;
+    height: 40rem;
+  }
+
+  .dimensions3 {
+    width: 50rem;
+    height: 40rem;
+  }
+}
+
+/* NAV MENU */  
+
+.flexi{
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.navbaritem{
+  background: rgba(0, 0, 0, 0);
+  width: 3rem;
+  height: 0.8rem;
+  margin-bottom: 0.5rem;
+  justify-content: space-evenly;
+  margin: 0.1rem;
+  border-radius: 10%;
+}
+
+.navbaritemtext{
   color: white;
   margin: auto;
-  font-size: 16px;
+  font-size: 8px;
   text-align: center;
-  position: absolute;
-  left: 3rem;
-  top: 1rem;
+  position: relative;
+  top: 0.8rem;
+  left: -0.9rem;
 }
 
 .buttonText{
@@ -60,98 +103,250 @@
   top: 2.5rem;
 }
 
-.flexi{
-  display: flex;
-  flex-direction: column;
-}
-
-/* TOP HALF CONTAINERS */
-
-.dimensions{
-    width: 56.25rem;
-    height: 37.5rem;
-    margin: 2rem;
-    position: relative;
-    background: #c7c9c9;
-    border: 2px solid black;
-    border-style: double;
-    background-image: url(/src/img/5376547.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 2rem;
-    top: 2rem;
-}
-
-
-.dimensions2{
-    width: 31.21875rem;
-    height: 46.875rem;
-    margin: 2rem;
-    position: absolute;
-    background: #ffffff;
-    border: 2px solid black;
-    background-image: url(/src/img/vv.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 2rem;
-    left: 60.25rem;
-}
-
-
-.pic{
-    position: absolute;
-    width: 20rem;
-    height: 20rem;
-    background:  #edb306;
-    border-radius: 0 0 5rem 5rem;
-}
-
-.imgprop{
-    position: absolute;
-    top: 5rem;
-    left: 4.5rem;
-    max-width: 50%;
-    max-height: 50%;
-    border-radius: 50%;
-}
-
 .textDiv{
     position: absolute;
-    width: 20rem;
-    height: 20rem;
-    left: 28rem;
-    top: 15rem;
+    width: 10rem;
+    height: 10rem;
+    left: 2rem;
+    top: 2rem;
 
     background: #ffffff00;
 }
 
+@media (min-width: 600px) {
+
+  .flexi{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -7rem;
+    top: -1rem;
+  }
+  
+  .navbaritem{
+    background: rgba(0, 0, 0, 0);
+    width: 8rem;
+    height: 5rem;
+    background-image: url(/src/img/btn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 0.5rem;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+    border-radius: 10%;
+  }
+  
+  .navbaritemtext{
+    color: white;
+    margin: auto;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 0.8rem;
+    left: -0.9rem;
+  }
+  
+  .empty{
+      width: 31.21875rem;
+      height: 46.875rem;
+      margin: 2rem;
+      position: absolute;
+      background: #ffffff;
+      background-image: url(/src/img/6057926.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      top: 2rem;
+      left: 60.25rem;
+      border: 3px solid rgb(0, 0, 0);
+  }
+  
+
+  .textDiv{
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    left: 10rem;
+    top: 10rem;
+
+    background: #ffffff00;
+}
+
+  .buttonText{
+    color: rgb(158, 156, 156);
+    margin: auto;
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    left: 7rem;
+    top: 2.5rem;
+}
+}
 
 
-/* TOP HALF FONT SETTINGS*/
+
+/* INFO TEXT SETTINGS*/
 
 .fontOne{
-    position: absolute;
+    position: relative;
     width: 4rem;
     height: 1rem;
-    left: -7rem;
-    top: -9.8rem;
+    left: 5.9rem;
+    top: -3.3rem;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 12px;
     line-height: 17px;
 
     color: #0075FF;
 }
 
 .fontTwo{
-    position: absolute;
+    position: relative;
     width: 25rem;
     height: 3rem;
-    left: -8.4rem;
-    top: -7.5rem;
+    left: 5.6rem;
+    top: -3.5rem;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 24px;
+    
+    color: #f5ecec;
+}
+
+.fontThree{
+    position: relative;
+    width: 18rem;
+    height: 2rem;
+    left: 6.5rem;
+    top: -5.6rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 17px;
+
+    color: #e2dddd;
+}
+
+.fontFour{
+    position: relative;
+    width: 18rem;
+    height: 2frem;
+    left: 4.8rem;
+    top: -7rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+
+    color: #0075FF;
+}
+
+.fontFive{
+    position: absolute;
+    width: 18rem;
+    height: 2rem;
+    left: 5.5rem;
+    top: 0.5rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+
+    color: #ecdfdf;
+}
+
+.fontSix{
+    position: absolute;
+    width: 10.5rem;
+    height: 1.188rem;
+    left: 5.5rem;
+    top: 1.5rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    text-decoration-line: underline;
+
+    color: #ffffff;
+}
+
+.fontSeven{
+    position: absolute;
+    width: 32.438rem;
+    height: 1.188rem;
+    left: 6rem;
+    top: 5.2rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 15px;
+
+    color: #f7f7f7;
+}
+
+.iconprop1{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 4.5rem;
+    top: 0.5rem;
+}
+
+.iconprop2{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 4.2rem;
+    top: 1.6rem;
+}
+
+.iconprop3{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 8rem;
+    top: 4rem;
+}
+
+@media (min-width: 600px) {
+
+  .fontOne{
+    position: relative;
+    width: 4rem;
+    height: 1rem;
+    left: 12.3rem;
+    top: -45rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 17px;
+
+    color: #0075FF;
+}
+
+.fontTwo{
+    position: relative;
+    width: 25rem;
+    height: 3rem;
+    left: 11.5rem;
+    top: -44rem;
     
     font-family: 'Inter';
     font-style: normal;
@@ -163,11 +358,11 @@
 }
 
 .fontThree{
-    position: absolute;
+    position: relative;
     width: 18rem;
     height: 2rem;
-    left: -4rem;
-    top: -5rem;
+    left: 14rem;
+    top: -44.8rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -179,11 +374,11 @@
 }
 
 .fontFour{
-    position: absolute;
+    position: relative;
     width: 18rem;
     height: 2frem;
-    left: -10.5rem;
-    top: -3rem;
+    left: 10.5rem;
+    top: -43.8rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -195,11 +390,11 @@
 }
 
 .fontFive{
-    position: absolute;
+    position: relative;
     width: 18rem;
     height: 2rem;
-    left: -10rem;
-    top: 0.5rem;
+    left: 10rem;
+    top: -45rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -211,11 +406,11 @@
 }
 
 .fontSix{
-    position: absolute;
+    position: relative;
     width: 10.5rem;
     height: 1.188rem;
-    left: -9rem;
-    top: 4rem;
+    left: 10rem;
+    top: -44rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -228,11 +423,11 @@
 }
 
 .fontSeven{
-    position: absolute;
+    position: relative;
     width: 32.438rem;
     height: 1.188rem;
-    left: -4.8rem;
-    top: 13.5rem;
+    left: 14rem;
+    top: -34.5rem;
 
     font-family: 'Inter';
     font-style: normal;
@@ -244,80 +439,35 @@
 }
 
 .iconprop1{
-    position: absolute;
+    position: relative;
     width: 3rem;
     height: 3rem;
-    left: -13rem;
-    top: 1.3rem;
+    left: 6.5rem;
+    top: -42.6rem;
 }
 
 .iconprop2{
     position: absolute;
     width: 3rem;
     height: 3rem;
-    left: -12.4rem;
-    top: 4.8rem;
+    left: 6.5rem;
+    top: -31.7rem;
 }
 
 .iconprop3{
     position: absolute;
     width: 3rem;
     height: 3rem;
-    left: -1.2rem;
-    top: 10.7rem;
+    left: 17.5rem;
+    top: -24rem;
 }
-
-
-
-
-.brectext{
-    text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 17px;
-    
-    color: #0075FF;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-right: 10px;
-    margin-top: 20px;
-}
-
-.brectext2{
-    text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 17px;
-    
-    color: #0075FF;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.brectext3{
-    text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 17px;
-    
-    color: #0075FF;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-left: 5px;
 }
 
 
 /* CARD FONT SETTINGS */
 
 .h1text{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
     color: rgb(220, 230, 92);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -325,17 +475,36 @@
 }
 
 .h2text{
-    font-size: 20px;
+    font-size: 10px;
     color:#ffffff;
-    margin-left: 8rem;
+    width: 25rem;
+    max-width: 20rem;
 }
 
-.pt{
-    font-size: 24px;
-    margin-top: 0px;
-    color: white;
-}
+@media (min-width: 600px) {
 
+    .h1text{
+      font-size: 40px;
+      text-align: center;
+      color: rgb(220, 230, 92);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      margin-bottom: 0px;
+  }
+
+  .h2text{
+      font-size: 20px;
+      color:#ffffff;
+      margin-left: 8rem;
+      width: 25rem;
+  }
+
+  .pt{
+      font-size: 24px;
+      margin-top: 0px;
+      color: white;
+      max-width: 55%;
+  }
+}
 
 /* ANIMATIONS */ 
 

@@ -2,7 +2,7 @@ import styles from './styles/styles.module.css'
 
 function EmptySpace(){
     return(
-        <div className={styles.empty}>
+        <div className={styles.dimensions3}>
 
         </div>
     )
