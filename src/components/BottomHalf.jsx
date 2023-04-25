@@ -10,9 +10,7 @@ function BottomHalf(){
         <div>
             
         <div className={styles.dimensions}>
-            <div className={styles.flexi}>
-                
-
+            <div className={styles.navbar}>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/utdanning'><br/><h2 className={styles.navbaritemtext}>Utdanning</h2></Link>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/skills'><br/><h2 className={styles.navbaritemtext}>Skills</h2></Link>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/portfolio'><br/><h2 className={styles.navbaritemtext}>Portfolio</h2></Link>
