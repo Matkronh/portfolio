@@ -7,9 +7,8 @@ function BottomHalf(){
 
     
     return(
-        <div>
-            
-        <div className={styles.dimensions}>
+        <div className={styles.frame}>
+
             <div className={styles.navbar}>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/utdanning'><br/><h2 className={styles.navbaritemtext}>Utdanning</h2></Link>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/skills'><br/><h2 className={styles.navbaritemtext}>Skills</h2></Link>
@@ -18,19 +17,26 @@ function BottomHalf(){
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/erfaring'><br/><h2 className={styles.navbaritemtext}>Erfaring</h2></Link>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/ommeg'><br/><h2 className={styles.navbaritemtext}>OmMeg</h2></Link>
             </div>
+            
+        <div className={styles.dimensions}>
+            
 
             <TheTextDiv 
                     name="Mats Emil Kronheim"
                     title="Junior Developer"
-                    number="+47 48 45 82 08"
+                    number="+4748458208"
                     mail="mats.kodehode@gmail.com"
-                    adress="Vestre Julegaten 949438"
+                    adress="Åsvegen_949438"
                 />
             
         </div>
         <br/>
             <Outlet/>
             <br/>
+
+            <div className={styles.footer}>
+                <h2 className={styles.footertext}>this is a footer</h2>
+            </div>
         </div>
     )   
 }

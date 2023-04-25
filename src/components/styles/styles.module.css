@@ -1,13 +1,20 @@
+.frame{
+  width: 100%;
+  height: 100%;
+}
+
 .app{
   display: flex;
- /*  width: 100%; */
+  width: 100%;
   height: 100%;
   justify-content: center;
 }
 
 .dimensions{
-  width: 10rem;
-  height:7rem;
+  position: absolute;
+  width: 60%;
+  height:25%;
+  left: 20%;
   background: #c7c9c9;
   border: 1px solid black;
   border-style: double;
@@ -19,9 +26,11 @@
 }
 
 .dimensions2{
-  width: 10rem;
-  height: 14rem;
-  position: relative;
+  width: 60%;
+  height: 50%;
+  position: absolute;
+  top: 35%;
+  left: 20%;
   background: #ffffff;
   border: 1px solid black;
   background-image: url(/src/img/vv.jpg);
@@ -32,15 +41,37 @@
 }
 
 .dimensions3{
-  width: 10rem;
-  height: 7rem;
-  position: relative;
+  width: 60%;
+  height: 50%;
+  top: 35%;
+  left: 20%;
+  position: absolute;
   background: #ffffff;
   border: 1px solid black;
   background-image: url(/src/img/6057926.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
+}
+
+.footer{
+  width: 100%;
+  height: 10%;
+  top: 90%;
+  left: 0;
+  position: absolute;
+  background: #ffffff57;
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+}
+
+.footertext{
+  position: relative;
+  text-align: center;
+  top: 30%;
+  font-size: 20px;
+  color: black;
 }
 
 
@@ -52,19 +83,33 @@
   }
 
   .dimensions {
-    width: 50rem;
-    height: 40rem;
+    width: 50%;
+    height: 68%;
   }
 
   .dimensions2 {
-    width: 50rem;
-    height: 40rem;
+    width: 50%;
+    height: 65%;
+    top: 75%;
   }
 
   .dimensions3 {
-    width: 50rem;
-    height: 40rem;
+    width: 50%;
+    height: 65%;
+    top: 75%;
   }
+  .footer{
+    width: 100%;
+    height: 15%;
+    top: 150%;
+    left: 0;
+    position: absolute;
+    background: #ffffff57;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+  }
+  
 }
 
 /* NAV MENU */  
@@ -114,11 +159,11 @@
 
 .textDiv{
     position: absolute;
-    width: 10rem;
-    height: 10rem;
-    left: 2rem;
-    top: 3.1rem;
+    width: 50%;
+    height:25%;
     background: #ffffff00;
+    top: 25%;
+    left: -30%;
 }
 
 @media (min-width: 600px) {
@@ -128,8 +173,8 @@
     flex-direction: column;
     overflow: hidden;
     position: fixed;
-    left: 26rem;
-    top: 0rem;
+    left: 13%;
+    top: 0%;
   }
   
   .navbaritem{
@@ -201,11 +246,8 @@
 
 .fontOne{
     position: relative;
-    width: 4rem;
-    height: 1rem;
-    left: 7rem;
-    top: -0.6rem;
-
+    left: 155%;
+    top: -40%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -217,10 +259,8 @@
 
 .fontTwo{
     position: relative;
-    width: 25rem;
-    height: 3rem;
-    left: 6.7rem;
-    top: -1.4rem;
+    left: 165%;
+    top: -70%;
     
     font-family: 'Inter';
     font-style: normal;
@@ -233,10 +273,8 @@
 
 .fontThree{
     position: relative;
-    width: 18rem;
-    height: 2rem;
-    left: 6.8rem;
-    top: -3.8rem;
+    left: 185%;
+    top: -105%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -249,10 +287,8 @@
 
 .fontFour{
     position: relative;
-    width: 18rem;
-    height: 2frem;
-    left: 6.4rem;
-    top: -5.6rem;
+    left: 140%;
+    top: -135%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -265,10 +301,8 @@
 
 .fontFive{
     position: absolute;
-    width: 18rem;
-    height: 2rem;
-    left: 6.5rem;
-    top: 1.5rem;
+    left: 155%;
+    top: 55%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -281,10 +315,8 @@
 
 .fontSix{
     position: absolute;
-    width: 10.5rem;
-    height: 1.188rem;
-    left: 6.5rem;
-    top: 2rem;
+    left: 166%;
+    top: 77%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -298,11 +330,8 @@
 
 .fontSeven{
     position: absolute;
-    width: 32.438rem;
-    height: 1.188rem;
-    left: 7rem;
-    top: 3.7rem;
-
+    left: 170%;
+    top: 200%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
@@ -314,26 +343,26 @@
 
 .iconprop1{
     position: absolute;
-    width: 0.5rem;
-    height: 0.5rem;
-    left: 6rem;
-    top: 1.7rem;
+    width: 100%;
+    height: 25%;
+    left: 100%;
+    top: 60%;
 }
 
 .iconprop2{
     position: absolute;
-    width: 0.5rem;
-    height: 0.5rem;
-    left: 5.9rem;
-    top: 2.3rem;
+    width: 100%;
+    height: 25%;
+    left: 110%;
+    top: 85%;
 }
 
 .iconprop3{
     position: absolute;
-    width: 0.5rem;
-    height: 0.5rem;
-    left: 7.8rem;
-    top: 3.5rem;
+    width: 100%;
+    height: 25%;
+    left: 135%;
+    top: 180%;
 }
 
 @media (min-width: 600px) {
@@ -510,9 +539,10 @@
   .h2text{
       font-size: 20px;
       color:#ffffff;
-      margin-left: 6rem;
+      margin-left: 8rem;
       width: 28rem;
       max-width: 640px;
+      text-align: left;
   }
 
   .pt{
