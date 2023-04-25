@@ -1,6 +1,6 @@
 .app{
   display: flex;
-  width: 100%;
+ /*  width: 100%; */
   height: 100%;
   justify-content: center;
 }
@@ -73,15 +73,23 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 2;
 }
 
 .navbaritem{
-  background: rgb(255, 15, 15);
-  width: 2.857rem;
+  background: rgb(1, 153, 13);
+  width: 3.208rem;
   height: 1.3rem;
   margin-top: 0;
   margin: 0;
-  /* display: block; */
+  border: 1px double black;
+}
+
+@media (max-width: 600px){
+
+  .navbaritem:hover{
+    background: rgb(70, 185, 59);
+}
 }
 
 .navbaritemtext{
@@ -107,8 +115,7 @@
     width: 10rem;
     height: 10rem;
     left: 2rem;
-    top: 2rem;
-
+    top: 3.1rem;
     background: #ffffff00;
 }
 
@@ -121,6 +128,10 @@
     position: fixed;
     left: 26rem;
     top: 0rem;
+  }
+
+  .navbaritem:hover{
+    
   }
   
   .navbaritem{
@@ -135,6 +146,7 @@
     margin: 0.5rem;
     border-radius: 10%;
     left: 5rem;
+    border-style: none;
   }
   
   .navbaritemtext{

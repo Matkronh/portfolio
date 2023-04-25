@@ -17,7 +17,6 @@ function BottomHalf(){
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/referanse'> <br/><h2 className={styles.navbaritemtext}>Referanse</h2></Link>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/erfaring'><br/><h2 className={styles.navbaritemtext}>Erfaring</h2></Link>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/ommeg'><br/><h2 className={styles.navbaritemtext}>OmMeg</h2></Link>
-                <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/'><br/><h2 className={styles.navbaritemtext}>Close</h2></Link>
             </div>
 
             <TheTextDiv 
