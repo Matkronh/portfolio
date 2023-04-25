@@ -120,7 +120,7 @@
     overflow: hidden;
     position: fixed;
     left: 26rem;
-    top: -1rem;
+    top: 0rem;
   }
   
   .navbaritem{

@@ -26,10 +26,11 @@ function App() {
             <Route path='ommeg' element={<Ommeg />}/>
             <Route path='utdanning' element={<Utdanning />}/>
             <Route path='skills' element={<Skills />}/>
-            <Route path='portfolio' element={<Portfoliox />}/>
+            <Route path='portfoliox' element={<Portfoliox />}/>
             <Route path='referanse' element={<Referanse />}/>
             <Route path='erfaring' element={<Erfaring />}/>
             <Route path='*' element={<h1>404 Error</h1>} />
+            <Route path='portfolio' element={<EmptySpace />}/>
           </Route>
         </Routes>
       </Router>
