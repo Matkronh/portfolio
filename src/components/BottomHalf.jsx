@@ -3,12 +3,17 @@ import { Link, Outlet } from 'react-router-dom'
 import './styles/styles.module.css'
 import TheTextDiv from './TheTextDiv'
 /* import Header from './header' */
+import sample from '../img/abstract-47713.mp4'
+
 function BottomHalf(){
 
     
     return(
         <div className={styles.frame}>
 
+            <video className={styles.video} autoPlay loop muted>
+                <source src={sample} type='video/mp4' />
+            </video>
             <div className={styles.navbar}>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/utdanning'><br/><h2 className={styles.navbaritemtext}>Utdanning</h2></Link>
                 <Link className={`${styles.navbaritem} + ${styles.hvrwobbletop}`} to='/skills'><br/><h2 className={styles.navbaritemtext}>Skills</h2></Link>
