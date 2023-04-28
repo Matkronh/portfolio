@@ -2,9 +2,9 @@ import styles from '../styles/styles.module.css'
 
 function Ommeg(){
     return(
-        <div className={styles.dimensions2}>
-            <h1 className={styles.h1text}>Om Meg</h1>
-            <h2 className={styles.h2text}>Jeg heter Mats og jeg er 33 år ung.
+        <div className={styles.card}>
+            <h1 className={styles.cardelement}>Om Meg</h1>
+            <h2 className={styles.cardelement}>Jeg heter Mats og jeg er 33 år ung.
                 Jeg elsker å programmere, designe og bruke kreativiteten min til å skape, om det er gjennom html, css eller js- til syvende og sist skal alt flettes sammen og det er noe med den følelsen når alt klikker sammen jeg rett og slett ikke får nok av. Når jeg får på meg headsettet, utestenger alle distraksjoner og kommer inn i sonen så føler jeg at det begynner å krible i fingrene og det er rett opp i syvende gir.
                 <br/>
                 <br/>
