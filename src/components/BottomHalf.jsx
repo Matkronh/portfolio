@@ -1,29 +1,35 @@
 import styles from './styles/styles.module.css'
 /* import { Link, Outlet } from 'react-router-dom' */
 import './styles/styles.module.css'
-import TheTextDiv from './TheTextDiv'
+/* import TheTextDiv from './TheTextDiv' */
 import Skills from './routes/skills'
 import Utdanning from './routes/utdanning'
 import Erfaring from './routes/erfaring'
 import Portfoliox from './routes/portfolio'
 import Referanse from './routes/referanse'
 import Ommeg from './routes/ommeg'
-import video1 from '../img/bgvidfixed.mp4'
-import video2 from '../img/bgvidvert.mp4'
+import video1 from '../img/cloudhelloup.mp4'
+import video2 from '../img/cloudhello.mp4'
+import arrow from '../img/arrup.svg'
 
 function BottomHalf(){
 
     
     return(
         <div>
-            <div className={styles.backgroundvideo}>
-                <video className={styles.videohorizontal} autoPlay loop muted>
-                    <source src={video1} type='video/mp4' />
-                </video>
-                <video className={styles.videovertical} autoPlay loop muted>
-                    <source src={video2} type='video/mp4' />
-                </video>
-            </div>
+            <span className={styles.anchor} id='topsection'></span>
+                    <div className={styles.intro}>
+                        <div className={styles.backgroundvideo}>
+                            <h2 className={styles.namestyle}>Mats Kronheim</h2>
+                            <video className={styles.videocss} autoPlay loop muted>
+                                <source src={video1} type='video/mp4' />
+                            </video>
+                            <video className={styles.videocss2} autoPlay loop muted>
+                                <source src={video2} type='video/mp4' />
+                            </video>
+                        </div>
+                </div>
+                
 
             <div className={styles.navbar}>
                 <div className={styles.navbariteminverse}><br/><a href="#skillssection" className={styles.navbaritemtextinverse}>Skills</a></div>
@@ -32,27 +38,39 @@ function BottomHalf(){
                 <div className={styles.navbaritem}><br/><a href="#portfoliosection" className={styles.navbaritemtext}>Portfolio</a></div>
                 <div className={styles.navbariteminverse}><br/><a href="#referansesection" className={styles.navbaritemtextinverse}>Referanse</a></div>
                 <div className={styles.navbaritem}><br/><a href="#ommegsection" className={styles.navbaritemtext}>OmMeg</a></div>
+                <div className={styles.navbartotop}><a href='#topsection'><img className={styles.arr} src={arrow} /></a></div>
+            </div >
+
+            <div className={styles.transition}>
+                <h2 className={styles.transitiontext}>My Portfolio</h2>
             </div>
+            
+
             <div className={styles.container}>
-                <TheTextDiv 
-                    name="Mats Emil Kronheim"
-                    title="Junior Developer"
-                    number="+4748458208"
-                    mail="mats.kodehode@gmail.com"
-                    adress="Sætervegen 1298A, Bergen"
-                />
                 <span className={styles.anchor} id="skillssection"></span>
-                <Skills />
+                    <div className={styles.sectionheight}>
+                        <Skills />
+                    </div>
                 <span className={styles.anchor} id="utdanningsection"></span>
-                <Utdanning />
+                    <div className={styles.sectionheight}>
+                        <Utdanning />
+                    </div>
                 <span className={styles.anchor} id="erfaringsection"></span>
-                <Erfaring />
+                    <div className={styles.sectionheight}>
+                        <Erfaring />
+                    </div>
                 <span className={styles.anchor} id="portfoliosection"></span>
-                <Portfoliox />
+                    <div className={styles.sectionheight}>
+                        <Portfoliox />
+                    </div>
                 <span className={styles.anchor} id="referansesection"></span>
-                <Referanse />
+                    <div className={styles.sectionheight}>
+                        <Referanse />
+                    </div>
                 <span className={styles.anchor} id="ommegsection"></span>
-                <Ommeg />
+                    <div className={styles.sectionheight}>
+                        {<Ommeg />}
+                    </div>
 
             </div>
         </div>
