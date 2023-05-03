@@ -257,10 +257,6 @@ html{
   
 }
 
-
-
-
-
 @media /*PC*/ (min-width: 600px){
 
   .hero{
@@ -293,9 +289,6 @@ html{
 
   .navbaritem{
     width: 16.7%;
-    background-color: #5e007a;
-    background-image: url("/src/img/cluttered/rub.jpg");
-    background-size: cover;
     text-decoration: none;
     border: 1px solid black;
     text-align: center;
@@ -321,22 +314,7 @@ html{
     color: whitesmoke;
     text-shadow: 5px 5px #558ABB;
   }
-
-  .navbartotop{
-    z-index: 5;
-    display: flex;
-    width: 100%;
-    position: fixed;
-    top: 7%;
-    justify-content: left;
-  }
-
-  .arr{
-    width: 8%;
-    color: red;
-  }
-
-
+  
   /* TRANSITION(MY PORTFOLIO) */
 
   .transition{
