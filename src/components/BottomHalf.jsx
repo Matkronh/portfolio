@@ -8,7 +8,6 @@ import Erfaring from './routes/erfaring'
 import Portfoliox from './routes/portfolio'
 import Referanse from './routes/referanse'
 import Ommeg from './routes/ommeg'
-import arrow from '../img/arrup.svg'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -22,9 +21,7 @@ function BottomHalf(){
     window.addEventListener('scroll', () => {
         document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
       }, false);
-
-    
-    
+      
     return(
         <div>
             <Particles
@@ -166,13 +163,6 @@ function BottomHalf(){
                 <div className={styles.navbaritem}><br/><a href="#portfoliosection" className={styles.navbaritemtext}>Portfolio</a></div>
                 <div className={styles.navbaritem}><br/><a href="#referansesection" className={styles.navbaritemtext}>Referanse</a></div>
                 <div className={styles.navbaritem}><br/><a href="#ommegsection" className={styles.navbaritemtext}>OmMeg</a></div>
-                <div className={styles.cubewrap}><a href='#topsection'><div className={styles.cube} src={arrow}>
-                    <div className={`${styles.side} + ${styles.top}`}></div>
-                    <div className={`${styles.side} + ${styles.bottom}`}></div>
-                    <div className={`${styles.side} + ${styles.front}`}></div>
-                    <div className={`${styles.side} + ${styles.back}`}></div>
-                    <div className={`${styles.side} + ${styles.left}`}></div>
-                    <div className={`${styles.side} + ${styles.right}`}></div></div></a></div>
             </div >
 
             <div className={styles.transition}>
