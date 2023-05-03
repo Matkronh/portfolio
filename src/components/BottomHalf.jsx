@@ -86,7 +86,7 @@ function BottomHalf(){
                             "line_linked": {
                                 "enable": true,
                                 "distance": 300,
-                                "color": "#ffffff",
+                                "color": "#fff",
                                 "opacity": 0.4,
                                 "width": 1
                             },
@@ -143,7 +143,7 @@ function BottomHalf(){
                         },
                         "retina_detect": true,
                         "background": {
-                            "color": "#111",
+                            "color": "#1c1c1c",
                             "image": "",
                             "position": "50% 50%",
                             "repeat": "no-repeat",
