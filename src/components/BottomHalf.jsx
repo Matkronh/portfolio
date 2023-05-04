@@ -10,6 +10,7 @@ import Referanse from './routes/referanse'
 import Ommeg from './routes/ommeg'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { useScramble } from 'use-scramble';
 
 function BottomHalf(){
 
@@ -21,6 +22,13 @@ function BottomHalf(){
     window.addEventListener('scroll', () => {
         document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
       }, false);
+
+      const { ref, replay } = useScramble({ text: 'Mats Kronheim',
+    speed: 0.4,
+    tick: 1,
+    step: 1,
+    scramble: 8,
+    seed: 3, });
       
     return(
         <div>
@@ -151,7 +159,7 @@ function BottomHalf(){
             <span className={styles.anchor} id='topsection'></span>
                     <div className={styles.intro}>
                         <div className={styles.hero}>
-                            <h2 className={styles.namestyle}>Mats Kronheim</h2>
+                            <h2 className={styles.namestyle} ref={ref} onMouseOver={replay}>Mats Kronheim</h2>
                         </div>
                 </div>
                 
