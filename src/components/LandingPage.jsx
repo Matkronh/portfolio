@@ -2,12 +2,12 @@ import styles from './styles/styles.module.css'
 /* import { Link, Outlet } from 'react-router-dom' */
 import './styles/styles.module.css'
 /* import TheTextDiv from './TheTextDiv' */
-import Skills from './routes/skills'
-import Utdanning from './routes/utdanning'
-import Erfaring from './routes/erfaring'
-import Portfoliox from './routes/portfolio'
-import Referanse from './routes/referanse'
-import Ommeg from './routes/ommeg'
+import Skills from './cards/skills'
+import Utdanning from './cards/utdanning'
+import Erfaring from './cards/erfaring'
+import Portfoliox from './cards/portfolio'
+import Referanse from './cards/referanse'
+import Ommeg from './cards/ommeg'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { useScramble } from 'use-scramble';
@@ -22,13 +22,6 @@ function BottomHalf(){
     window.addEventListener('scroll', () => {
         document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
       }, false);
-
-      const { ref, replay } = useScramble({ text: 'Mats Kronheim',
-    speed: 0.4,
-    tick: 1,
-    step: 1,
-    scramble: 8,
-    seed: 3, });
       
     return(
         <div>
@@ -159,7 +152,7 @@ function BottomHalf(){
             <span className={styles.anchor} id='topsection'></span>
                     <div className={styles.intro}>
                         <div className={styles.hero}>
-                            <h2 className={styles.namestyle} ref={ref} onMouseOver={replay}>Mats Kronheim</h2>
+                            <h2 className={styles.namestyle}>Mats Kronheim</h2>
                         </div>
                 </div>
                 
