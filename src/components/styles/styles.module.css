@@ -441,26 +441,30 @@ html{
 
 .popout{
   position: relative;
-  width: 130px;
-  height: 150px;
-  left: 365px;
+  width: 60%;
+  height: 70%;
+  left: 38.5%;
   top: 0px;
   animation: fadeIn 0.5s ease-in;
 }
 
 .popin{
   position: relative;
-  width: 130px;
-  height: 150px;
-  left: 365px;
+  width: 60%;
+  height: 70%;
+  left: 38.5%;
   top: 0px;
   animation: fadeout 0.5s ease-out;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateX(-10rem);
+    transform: translateY(-10rem);
+  }
+  50%{
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -471,11 +475,14 @@ html{
 @keyframes fadeout {
   0% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
+  }
+  50%{
+    opacity: 0;
   }
   100% {
     opacity: 0;
     visibility: hidden;
-    transform: translateX(0);
+    transform: translateY(-10rem);
   }
 }

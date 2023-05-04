@@ -12,8 +12,8 @@ function Skills(){
     seed: 3, });
 
     return(
-        <div /* className={styles.card} */>
-            <Dropdown title="My Skills">
+        <div className={styles.card}>
+            <h2 className={styles.cardelement}>Mine Skills</h2>
             <h2 className={styles.cardelement} ref={ref} onMouseOver={replay}/>
             <h2 className={styles.cardelement}>React</h2>
             <h2 className={styles.cardelement}>CSS</h2>
@@ -21,7 +21,7 @@ function Skills(){
             <h2 className={styles.cardelement}>C#</h2>
             <h2 className={styles.cardelement}>SAP</h2>
             <h2 className={styles.cardelement}>Førerkort Klasse B</h2>
-            </Dropdown>
+            
         </div>
     )
 }
