@@ -296,12 +296,12 @@ html{
     box-shadow:
     inset 0 0 25px #d3b9b991,
     inset 20px 0 60px rgba(0, 153, 255, 0.514),
-    inset -20px 0 60px rgba(0, 255, 149, 0.459),
+    inset -20px 0 60px rgba(75, 202, 202, 0.459),
     inset 20px 0 260px rgba(0, 153, 255, 0.521),
     inset -20px 0 300px rgba(0, 255, 255, 0.562),
-    0 0 50px #ffffff93,
-    -10px 0 60px rgb(0, 204, 255),
-    10px 0 60px rgb(0, 255, 98);
+    0 0 20px #ffffff93,
+    -10px 0 10px rgb(0, 204, 255),
+    10px 0 10px rgb(0, 255, 98);
   }
 
   .navbaritemtext{
@@ -353,6 +353,17 @@ html{
   .sectionheight{
     height: 100vh;
     width: 100%;
+    position: relative;
+    z-index: 4;
+  }
+
+  .sectionheight2{
+    display: flex;
+    height: 200vh;
+    width: 100%;
+    position: relative;
+    z-index: 4;
+    border-bottom: 4mm ridge rgba(75, 150, 247, 0.705);
   }
 
   /* SKILLS SECTION */
@@ -374,18 +385,17 @@ html{
   }
 
   .ws{
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.788);
     border-top: 4mm ridge rgba(75, 150, 247, 0.705);
     border-bottom: 4mm ridge rgba(75, 150, 247, 0.705);
     height: 100%;
     width: 100%;
     position: relative;
     z-index: 4;
-    
   }
 
   .floatingtext {
-    width: 50%;
+    width: 25%;
     margin-top: 9%;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -400,7 +410,7 @@ html{
 
 .pos1{
   position: relative;
-  left: 10%;
+  left: 25%;
   animation-name: floating;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -408,7 +418,7 @@ html{
 }
 .pos2{
   position: relative;
-  left: 27%;
+  left: 42%;
   top: -10%;
   animation-name: floating2;
     animation-duration: 8s;
@@ -417,7 +427,7 @@ html{
 }
 .pos3{
   position: relative;
-  left: 13%;
+  left: 28%;
   top: -13%;
   animation-name: floating3;
     animation-duration: 8s;
@@ -426,7 +436,7 @@ html{
 }
 .pos4{
   position: relative;
-  left: 50%;
+  left: 65%;
   top: -35%;
   animation-name: floating;
     animation-duration: 8s;
@@ -435,7 +445,7 @@ html{
 }
 .pos5{
   position: relative;
-  left: 30%;
+  left: 45%;
   top: -50%;
   animation-name: floating2;
     animation-duration: 12s;
@@ -444,7 +454,7 @@ html{
 }
 .pos6{
   position: relative;
-  left: 5%;
+  left: 20%;
   top: -60%;
   animation-name: floating3;
     animation-duration: 12s;
@@ -467,107 +477,83 @@ html{
   65%  { transform: translate(0, 15px); }
   to   { transform: translate(45px, 45px); }    
 }
+
+/* UTDANNING SECTION */
+
+.parallaximg{
+  height: 200vh;
+  width: 100%;
+  opacity: 0.9;
+  position: relative;
+  z-index: 4;
+  border-top: 4mm ridge rgba(75, 150, 247, 0.705);
+}
   
 
   .card{
-
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-align: center;
+    background-color: #1F2124;
     z-index: 4;
-    width: 50%;
-    height: 40rem;
+    width: 30%;
+    padding: 2rem;
+    height: 30rem;
     margin-bottom: -5rem;
+    border-radius: 15px;
     position: relative;
     margin-top: 5%;
-    left: 0%;
+    left: 1%;
     justify-content: center;
-    top: 10%;
+    top: 5%;
+    margin-right: 2%;
   }
 
-  .cardtext{
-    font-family: 'Poiret One', cursive;
-    color: whitesmoke;
-    font-size: 150%;
-  }
-
-  .cardtext:hover{
-    font-family: 'Poiret One', cursive;
-    color: red;
-    font-size: 150%;
-  }
-
-  .line{
-    width: 0.5%;
-    height: 10%;
-    z-index: 4;
+  .card:nth-child(+2){
     position: relative;
-    background-color: whitesmoke;
-    border: 1px solid black;
+    top: 40rem;
+  }
+
+  .card:nth-child(+3){
+    position: relative;
+    top: 74rem;
+  }
+
+  .cardelement{
+    width: 75%;
+    height: 42%;
+    padding: 1rem;
+    font-family: 'Poiret One', cursive;
+    color:  #F68657;
     margin: auto;
-    margin-top: -5%;
-    margin-bottom: -5%;
-    box-shadow:
-    inset 0 0 25px #fff,
-    inset 10px 0 40px rgb(0, 110, 255),
-    inset -10px 0 40px #0ff,
-    inset 10px 0 150px rgb(0, 110, 255),
-    inset -10px 0 150px #0ff,
-    0 0 25px #fff,
-    -10px 0 40px rgb(0, 102, 255),
-    10px 0 40px #0ff;
+    border-right: 1px solid #F68657;
+    border-left: 1px solid #F68657;
   }
 
   .topcardelement{
     width: 75%;
-    height: 6%;
-    padding: 1rem;
-    font-family: 'Poiret One', cursive;
-    color: whitesmoke;
-    background-color: rgb(72, 94, 95);
-    border: 1px solid black;
-    opacity: 75%;
-    text-align: center;
-    margin-bottom: 10%;
-    margin: auto;
-    box-shadow:
-    inset 0 0 25px #fff,
-    inset 10px 0 40px rgb(0, 110, 255),
-    inset -10px 0 40px #0ff,
-    inset 10px 0 150px rgb(0, 110, 255),
-    inset -10px 0 150px #0ff,
-    0 0 25px #fff,
-    -10px 0 40px rgb(0, 102, 255),
-    10px 0 40px #0ff;
-  }
-
-  .cardelement{
-    width: 50%;
     height: 42%;
     padding: 1rem;
     font-family: 'Poiret One', cursive;
     color: whitesmoke;
-    background-color: rgb(72, 94, 95);
-    border: 1px solid black;
-    opacity: 75%;
-    text-align: center;
-    letter-spacing: 50%;
     margin: auto;
-    box-shadow:
-    inset 0 0 25px #fff,
-    inset 10px 0 40px rgb(0, 110, 255),
-    inset -10px 0 40px #0ff,
-    inset 10px 0 150px rgb(0, 110, 255),
-    inset -10px 0 150px #0ff,
-    0 0 25px #fff,
-    -10px 0 40px rgb(0, 102, 255),
-    10px 0 40px #0ff;
-    z-index: 4;
+    border-bottom: 1px solid #F68657;
+  }
+
+
+
+  .cardelement:hover{
+    font-family: 'Poiret One', cursive;
+    color: red;
+    font-size: 150%;
   }
 
   .anchor{
     height: 5rem;
     position: relative;
     width: 40%;
+    height: 50%;
   }
 }
 

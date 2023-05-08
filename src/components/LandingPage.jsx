@@ -8,6 +8,7 @@ import Referanse from './cards/referanse'
 import Ommeg from './cards/ommeg'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
+import { Parallax } from 'react-parallax';
 
 
 function BottomHalf(){
@@ -151,48 +152,56 @@ function BottomHalf(){
                 </div>
                 
 
-            <div className={styles.navbar}>
+            {/* <div className={styles.navbar}>
                 <div className={styles.navbaritem}><br/><a href="#skillssection" className={styles.navbaritemtext}>Skills</a></div>
                 <div className={styles.navbaritem}><br/><a href="#utdanningsection" className={styles.navbaritemtext}>Utdanning</a></div>
                 <div className={styles.navbaritem}><br/><a href="#erfaringsection" className={styles.navbaritemtext}>Erfaring</a></div>
                 <div className={styles.navbaritem}><br/><a href="#portfoliosection" className={styles.navbaritemtext}>Portfolio</a></div>
                 <div className={styles.navbaritem}><br/><a href="#referansesection" className={styles.navbaritemtext}>Referanse</a></div>
                 <div className={styles.navbaritem}><br/><a href="#ommegsection" className={styles.navbaritemtext}>OmMeg</a></div>
-            </div >
+            </div > */}
 
             <div className={styles.transition}>
                 <h2 className={styles.transitiontext}>My Portfolio</h2>
             </div>
-            
 
             <div className={styles.container}>
-                <span className={styles.anchor} id="skillssection"></span>
-                    <div className={styles.sectionheight}>
-                        <Skills />                        
-                    </div>
-                <span className={styles.anchor} id="utdanningsection"></span>
-                    <div className={styles.sectionheight}>
-                        <Utdanning />
-                    </div>
-                <span className={styles.anchor} id="erfaringsection"></span>
-                    <div className={styles.sectionheight}>
-                        <Erfaring />
-                    </div>
-                <span className={styles.anchor} id="portfoliosection"></span>
-                    <div className={styles.sectionheight}>
-                        <Portfoliox />
-                    </div>
-                <span className={styles.anchor} id="referansesection"></span>
-                    <div className={styles.sectionheight}>
-                        <Referanse />
-                    </div>
-                <span className={styles.anchor} id="ommegsection"></span>
-                    <div className={styles.sectionheight}>
-                        {<Ommeg />}
-                    </div>
 
-            </div>
+                    <span className={styles.anchor} id="skillssection"></span>
+                        <div className={styles.sectionheight}>
+                            <Skills />                        
+                        </div>
+
+                <div className={styles.transition}/>
+
+                    <span className={styles.anchor} id="utdanningsection"></span>
+                        <div className={styles.parallaximg}>
+                            <Parallax blur={3} bgImage="./src/img/codebgimg.jpg" bgImageAlt="code snippet" bgClassName={styles.parallaximg} strength={-400}>
+                                <div className={styles.sectionheight2}>
+                                    <Utdanning />
+                                    <Erfaring />
+                                    <Referanse />
+                                </div>
+                            </Parallax>
+                        </div>
+
+                <div className={styles.transition}/>
+
+                    <span className={styles.anchor} id="portfoliosection"></span>
+                        <div className={styles.sectionheight}>
+                            <Portfoliox />
+                        </div>
+                    <span className={styles.anchor} id="referansesection"></span>
+                        <div className={styles.sectionheight}>
+                            
+                        </div>
+                    <span className={styles.anchor} id="ommegsection"></span>
+                        <div className={styles.sectionheight}>
+                            {<Ommeg />}
+                        </div>
+
         </div>
+    </div>
     )   
 }
 
