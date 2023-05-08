@@ -8,9 +8,6 @@ import Referanse from './cards/referanse'
 import Ommeg from './cards/ommeg'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
 
 
 function BottomHalf(){
@@ -19,18 +16,6 @@ function BottomHalf(){
         console.log(main);
         await loadFull(main);
     };
-
-    window.addEventListener('scroll', () => {
-        document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
-      }, false);
-
-      const items = [
-        <div className="item" data-value="1">1</div>,
-        <div className="item" data-value="2">2</div>,
-        <div className="item" data-value="3">3</div>,
-        <div className="item" data-value="4">4</div>,
-        <div className="item" data-value="5">5</div>,
-    ];
       
     return(
         <div>
