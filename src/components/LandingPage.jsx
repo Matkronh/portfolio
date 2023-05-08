@@ -154,7 +154,7 @@ function BottomHalf(){
 
             {/* <div className={styles.navbar}>
                 <div className={styles.navbaritem}><br/><a href="#skillssection" className={styles.navbaritemtext}>Skills</a></div>
-                <div className={styles.navbaritem}><br/><a href="#utdanningsection" className={styles.navbaritemtext}>Utdanning</a></div>
+                <div className={styles.navbaritem}><br/><a href="#sec" className={styles.navbaritemtext}>Utdanning, Erfaring og Referanser</a></div>
                 <div className={styles.navbaritem}><br/><a href="#erfaringsection" className={styles.navbaritemtext}>Erfaring</a></div>
                 <div className={styles.navbaritem}><br/><a href="#portfoliosection" className={styles.navbaritemtext}>Portfolio</a></div>
                 <div className={styles.navbaritem}><br/><a href="#referansesection" className={styles.navbaritemtext}>Referanse</a></div>
