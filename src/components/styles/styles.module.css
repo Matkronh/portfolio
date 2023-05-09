@@ -563,12 +563,34 @@ html{
     border-bottom: 1px solid #F68657;
   }
 
-
-
   .cardelement:hover{
     font-family: 'Poiret One', cursive;
     color: red;
     font-size: 150%;
+  }
+
+  .projectheadercard{
+    display: flex;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-align: center;
+    background-color: #1F2124;
+    z-index: 4;
+    width: 30%;
+    padding: 2rem;
+    height: 10rem;
+    border: 0.15rem #F68657 solid;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .projectheadercardtext{
+    font-family: 'Poiret One', cursive;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
   }
 
   .anchor{

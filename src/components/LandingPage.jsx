@@ -3,7 +3,7 @@ import './styles/styles.module.css'
 import Skills from './cards/skills'
 import Utdanning from './cards/utdanning'
 import Erfaring from './cards/erfaring'
-import Portfoliox from './cards/portfolio'
+import Projects from './cards/projects'
 import Referanse from './cards/referanse'
 import Ommeg from './cards/ommeg'
 import Particles from "react-tsparticles";
@@ -11,7 +11,7 @@ import { loadFull } from "tsparticles";
 import { Parallax } from 'react-parallax';
 /* import TranImg from "../img/pagediv.svg"; */
 /* import img3 from "./src/img/test5.png" */
-import parall1 from "../img/test5.png"
+import parall1 from "../img/test11.png"
 import parall2 from "../img/codebgimg.jpg"
 
 function BottomHalf(){
@@ -149,14 +149,12 @@ function BottomHalf(){
                     />
             <span className={styles.anchor} id='topsection'></span>
                 <div>
-                    <Parallax blur={0} bgImage={parall1} bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
+                    <Parallax blur={0} bgImage={parall1} bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-15000}>
                         <div className={styles.intro}>
                             <div className={styles.hero}>
                                 <h2 className={styles.namestyle}>Mats Kronheim</h2>
                             </div>
                         </div>
-                
-
             {/* <div className={styles.navbar}>
                 <div className={styles.navbaritem}><br/><a href="#skillssection" className={styles.navbaritemtext}>Skills</a></div>
                 <div className={styles.navbaritem}><br/><a href="#sec" className={styles.navbaritemtext}>Utdanning, Erfaring og Referanser</a></div>
@@ -173,17 +171,10 @@ function BottomHalf(){
             </Parallax>
         </div>
             <div className={styles.container}>
-
-                    <span className={styles.anchor} id="skillssection"></span>
                         <div className={styles.sectionheight}>
                             <Skills />                        
                         </div>
-
-                <div className={styles.transition}>
-                    {/* <img src={TranImg} className={styles.transitionImg} /> */}
-                </div>
-
-                    <span className={styles.anchor} id="utdanningsection"></span>
+                <div className={styles.transition}/>
                         <div className={styles.parallaximg}>
                             <Parallax blur={3} bgImage={parall2} bgImageAlt="code snippet" bgClassName={styles.parallaximg} strength={-400}>
                                 <div className={styles.sectionheight2}>
@@ -194,19 +185,16 @@ function BottomHalf(){
                             </Parallax>
                         </div>
 
-                <div className={styles.transition}/>
 
-                    <span className={styles.anchor} id="portfoliosection"></span>
+                <div className={styles.transition}/>
                         <div className={styles.sectionheight}>
-                            <Portfoliox />
+                            <Projects />
                         </div>
-                    <span className={styles.anchor} id="referansesection"></span>
-                        <div className={styles.sectionheight}>
-                            
-                        </div>
-                    <span className={styles.anchor} id="ommegsection"></span>
-                        <div className={styles.sectionheight}>
-                            {<Ommeg />}
+                            <div className={styles.sectionheight}>
+                                <h1>hi</h1>
+                            </div>
+                            <div className={styles.sectionheight}>
+                            <Ommeg />
                         </div>
 
         </div>
