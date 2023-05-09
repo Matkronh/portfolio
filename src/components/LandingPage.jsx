@@ -10,7 +10,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Parallax } from 'react-parallax';
 /* import TranImg from "../img/pagediv.svg"; */
-
+import img3 from "./src/img/test5.png"
 
 function BottomHalf(){
 
@@ -147,7 +147,7 @@ function BottomHalf(){
                     />
             <span className={styles.anchor} id='topsection'></span>
                 <div>
-                    <Parallax blur={0} bgImage="./src/img/test5.png" bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
+                    <Parallax blur={0} bgImage={img3} bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
                         <div className={styles.intro}>
                             <div className={styles.hero}>
                                 <h2 className={styles.namestyle}>Mats Kronheim</h2>
