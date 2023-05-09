@@ -628,6 +628,10 @@ html{
     margin: 0 auto;
   }
 
+  .change{
+    margin: auto;
+  }
+
   .projectcardtextandimagecontainer{
     margin-top: 5%;
     display: flex;
