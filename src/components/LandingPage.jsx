@@ -10,7 +10,9 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Parallax } from 'react-parallax';
 /* import TranImg from "../img/pagediv.svg"; */
-import img3 from "./src/img/test5.png"
+/* import img3 from "./src/img/test5.png" */
+import parall1 from "../img/test5.png"
+import parall2 from "../img/codebgimg.jpg"
 
 function BottomHalf(){
 
@@ -147,7 +149,7 @@ function BottomHalf(){
                     />
             <span className={styles.anchor} id='topsection'></span>
                 <div>
-                    <Parallax blur={0} bgImage={img3} bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
+                    <Parallax blur={0} bgImage={parall1} bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
                         <div className={styles.intro}>
                             <div className={styles.hero}>
                                 <h2 className={styles.namestyle}>Mats Kronheim</h2>
@@ -183,7 +185,7 @@ function BottomHalf(){
 
                     <span className={styles.anchor} id="utdanningsection"></span>
                         <div className={styles.parallaximg}>
-                            <Parallax blur={3} bgImage="./src/img/codebgimg.jpg" bgImageAlt="code snippet" bgClassName={styles.parallaximg} strength={-400}>
+                            <Parallax blur={3} bgImage={parall2} bgImageAlt="code snippet" bgClassName={styles.parallaximg} strength={-400}>
                                 <div className={styles.sectionheight2}>
                                     <Utdanning />
                                     <Erfaring />
