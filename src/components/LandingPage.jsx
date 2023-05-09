@@ -190,12 +190,10 @@ function BottomHalf(){
                         <div className={styles.sectionheight}>
                             <Projects />
                         </div>
-                            <div className={styles.sectionheight}>
-                                <h1>hi</h1>
-                            </div>
-                            <div className={styles.sectionheight}>
-                            <Ommeg />
-                        </div>
+                            <div className={styles.transition}/>
+                                <div className={styles.sectionheight}>
+                                    <Ommeg />
+                                </div>
 
         </div>
     </div>
