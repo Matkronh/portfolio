@@ -9,6 +9,7 @@ import Ommeg from './cards/ommeg'
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Parallax } from 'react-parallax';
+/* import TranImg from "../img/pagediv.svg"; */
 
 
 function BottomHalf(){
@@ -145,11 +146,13 @@ function BottomHalf(){
                     }}
                     />
             <span className={styles.anchor} id='topsection'></span>
-                    <div className={styles.intro}>
-                        <div className={styles.hero}>
-                            <h2 className={styles.namestyle}>Mats Kronheim</h2>
+                <div>
+                    <Parallax blur={0} bgImage="./src/img/test5.png" bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
+                        <div className={styles.intro}>
+                            <div className={styles.hero}>
+                                <h2 className={styles.namestyle}>Mats Kronheim</h2>
+                            </div>
                         </div>
-                </div>
                 
 
             {/* <div className={styles.navbar}>
@@ -160,11 +163,13 @@ function BottomHalf(){
                 <div className={styles.navbaritem}><br/><a href="#referansesection" className={styles.navbaritemtext}>Referanse</a></div>
                 <div className={styles.navbaritem}><br/><a href="#ommegsection" className={styles.navbaritemtext}>OmMeg</a></div>
             </div > */}
-
-            <div className={styles.transition}>
-                <h2 className={styles.transitiontext}>My Portfolio</h2>
-            </div>
-
+            <div className={styles.sectionheight}/>
+                    <div className={styles.sectionheight}>
+                        <h2 className={styles.transitiontext}>My Portfolio</h2>
+                    </div>
+                <div className={styles.sectionheight}/>
+            </Parallax>
+        </div>
             <div className={styles.container}>
 
                     <span className={styles.anchor} id="skillssection"></span>
@@ -172,7 +177,9 @@ function BottomHalf(){
                             <Skills />                        
                         </div>
 
-                <div className={styles.transition}/>
+                <div className={styles.transition}>
+                    {/* <img src={TranImg} className={styles.transitionImg} /> */}
+                </div>
 
                     <span className={styles.anchor} id="utdanningsection"></span>
                         <div className={styles.parallaximg}>

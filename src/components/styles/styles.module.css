@@ -324,6 +324,7 @@ html{
     z-index: 4;
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -338,6 +339,16 @@ html{
     font-family: 'Poiret One', cursive;
     color: whitesmoke;
     text-shadow: 5px 5px #558ABB;
+    margin: auto;
+  }
+
+  .transitionImg{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: auto;
+    top: 5%;
   }
 
     /* CONTAINER */
@@ -351,6 +362,7 @@ html{
   }
 
   .sectionheight{
+    display: fleX;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -386,8 +398,8 @@ html{
 
   .ws{
     background-color: rgba(245, 245, 245, 0.788);
-    border-top: 4mm ridge rgba(75, 150, 247, 0.705);
-    border-bottom: 4mm ridge rgba(75, 150, 247, 0.705);
+    border-top: 1rem ridge rgba(75, 150, 247, 0.705);
+    border-bottom: 1rem ridge rgba(75, 150, 247, 0.705);
     height: 100%;
     width: 100%;
     position: relative;
@@ -396,7 +408,7 @@ html{
 
   .floatingtext {
     width: 25%;
-    margin-top: 9%;
+    /* margin-top: 9%; */
     text-align: center;
     color: rgb(0, 0, 0);
     font-family: 'Poiret One', cursive;
@@ -411,6 +423,7 @@ html{
 .pos1{
   position: relative;
   left: 25%;
+  top: 20%;
   animation-name: floating;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -419,7 +432,7 @@ html{
 .pos2{
   position: relative;
   left: 42%;
-  top: -10%;
+  top: 20%;
   animation-name: floating2;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -428,7 +441,7 @@ html{
 .pos3{
   position: relative;
   left: 28%;
-  top: -13%;
+  top: 30%;
   animation-name: floating3;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -437,7 +450,7 @@ html{
 .pos4{
   position: relative;
   left: 65%;
-  top: -35%;
+  top: 0%;
   animation-name: floating;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -446,7 +459,7 @@ html{
 .pos5{
   position: relative;
   left: 45%;
-  top: -50%;
+  top: 30%;
   animation-name: floating2;
     animation-duration: 12s;
     animation-iteration-count: infinite;
@@ -455,7 +468,7 @@ html{
 .pos6{
   position: relative;
   left: 20%;
-  top: -60%;
+  top: 10%;
   animation-name: floating3;
     animation-duration: 12s;
     animation-iteration-count: infinite;
@@ -487,6 +500,15 @@ html{
   position: relative;
   z-index: 4;
   border-top: 4mm ridge rgba(75, 150, 247, 0.705);
+}
+
+.parallax1{
+  height: 800vh;
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  z-index: 4;
+  background-image: contain;
 }
   
 
