@@ -4,6 +4,673 @@ html{
 
 @media /*MOBILE*/ (max-width: 600px){
   /* TO BE CONTINUED*/
+    /* LANGUAGE SWITCH */
+
+    .switch {
+      position: fixed;
+      top: 1.5%;
+      left: 1%;
+      display: inline-block;
+      margin: 0 5px;
+      margin-left: auto;
+      z-index: 5;
+    }
+    
+    .switch > span {
+      position: absolute;
+      top: 14px;
+      pointer-events: none;
+      font-family: 'Helvetica', Arial, sans-serif;
+      font-weight: bold;
+      font-size: 12px;
+      text-transform: uppercase;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+      width: 50%;
+      text-align: center;
+    }
+    
+    input.check_toggle_round_flat:checked ~ .off {
+      color: #ffffff;
+    }
+    
+    input.check_toggle_round_flat:checked ~ .on {
+      color: #292727;
+    }
+    
+    .switch > span.on {
+      left: 0;
+      padding-left: 2px;
+      color: #ffffff;
+    }
+    
+    .switch > span.off {
+      right: 0;
+      padding-right: 4px;
+      color: #292727;
+    }
+    
+    .check_toggle {
+      position: absolute;
+      margin-left: -9999px;
+      visibility: hidden;
+    }
+    .check_toggle + label {
+      display: block;
+      position: relative;
+      cursor: pointer;
+      outline: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+    
+    input.check_toggle_round_flat + label {
+      padding: 2px;
+      width: 97px;
+      height: 35px;
+      background-color: #ffffff;
+      -webkit-border-radius: 60px;
+      -moz-border-radius: 60px;
+      -ms-border-radius: 60px;
+      -o-border-radius: 60px;
+      border-radius: 60px;
+    }
+    input.check_toggle_round_flat + label:before, input.check_toggle_round_flat + label:after {
+      display: block;
+      position: absolute;
+      content: "";
+    }
+    
+    input.check_toggle_round_flat + label:before {
+      top: 2px;
+      left: 2px;
+      bottom: 2px;
+      right: 2px;
+      background-color: #ffffff;
+      border-radius: 60px;
+    }
+    input.check_toggle_round_flat + label:after {
+      top: 4px;
+      left: 4px;
+      bottom: 4px;
+      width: 48px;
+      background-color: #292727;
+      -webkit-border-radius: 52px;
+      -moz-border-radius: 52px;
+      -ms-border-radius: 52px;
+      -o-border-radius: 52px;
+      border-radius: 52px;
+      -webkit-transition: margin 0.2s;
+      -moz-transition: margin 0.2s;
+      -o-transition: margin 0.2s;
+      transition: margin 0.2s;
+    }
+    
+    input.check_toggle_round_flat:checked + label:after {
+      margin-left: 44px;
+    }
+  
+  
+    /* CONTACT ME */
+  
+    .top{
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      font-size: 1.3rem;
+      font-weight: bolder;
+      text-align: center;
+      text-decoration: none;
+    }
+  
+    .contact{
+      position: fixed;
+      min-width: 8%;
+      height: 5%;
+      z-index: 5;
+      background-color: red;
+      top: 2%;
+      right: 23%;
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      font-size: 1.3rem;
+      font-weight: bolder;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      text-align: center;
+      background-color: #1F2124;
+    }
+  
+    .contact2{
+      position: fixed;
+      min-width: 8%;
+      height: 5%;
+      z-index: 5;
+      background-color: red;
+      top: 2%;
+      right: 6%;
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      font-size: 1.3rem;
+      font-weight: bolder;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      text-align: center;
+      background-color: #1F2124;
+    }
+  
+    .modalblock{
+      position: relative;
+      z-index: 5;
+      width: 180%;
+      height: 100%;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      text-align: center;
+      background-color: #1F2124;
+      border: 0.2rem solid #F68657;
+      top: -1rem;
+      left: -1rem;
+      margin: auto;
+    }
+  
+    .modaltext{
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      padding: 0.2rem;
+      font-size: 1.1rem;
+    }
+  
+  
+    /* Top - My Name */
+  
+    .hero{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 5;
+      height: 100vh;
+    }
+    .namestyle{
+      z-index: 5;
+      position: absolute;
+      margin: auto;
+      font-size: 3rem;
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      text-shadow: 5px 5px #558ABB;
+    }
+  
+    .downstylewrap{
+      z-index: 4;
+      position: relative;
+      width: 50%;
+      height: 20%;
+      top: 20%;
+    }
+  
+    .downstylecircle{
+      display: block;
+      z-index: 3;
+      position: relative;
+      width: 25%;
+      height: 50%;
+      top: 20%;
+      background-color: #292727;
+      border: 0.1rem solid #F68657;
+      border-radius: 50%;
+      text-decoration: none;
+      transition: all 0.3s ease-in-out 0s;
+      margin: auto;
+    }
+  
+    .downstylecircle:before{
+      content: '';
+      border-radius: 1000px;
+      min-width: calc(300px + 12px);
+      min-height: calc(60px + 12px);
+      border: 6px solid #00FFCB;
+      box-shadow: 0 0 60px rgba(0,255,203,.64);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: all .3s ease-in-out 0s;
+    }
+  
+    .downstylecircle:after{
+      content: '';
+      width: 30px; height: 30px;
+      border-radius: 100%;
+      border: 6px solid #d1eb89;
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: ring 2.5s infinite;
+    }
+    
+    .downtextstyle{ 
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      text-align: center;
+      position: relative;
+      top: 40%;
+      font-size: 0.6rem;
+      
+    }
+  
+  @keyframes ring {
+    0% {
+      width: 0%;
+      height: 0%;
+      opacity: 1;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+    }
+  }
+    
+    /* TRANSITION(MY PORTFOLIO) */
+  
+    .transition{
+      width: 100%;
+      height: 40vh;
+      z-index: 4;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .transitiontext{
+      width: 100%;
+      font-family: 'Kanit', sans-serif;
+      font-size: 5rem;
+      text-align: center;
+      position: relative;
+      top: -5%;
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      text-shadow: 5px 5px #558ABB;
+      margin: auto;
+    }
+  
+    .transitionImg{
+      position: relative;
+      width: 60%;
+      height: 60%;
+      margin: auto;
+      margin-top: auto;
+      top: 5%;
+    }
+  
+      /* CONTAINER */
+  
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 3%;
+      margin-bottom: 10%;
+    }
+  
+    .sectionheight{
+      display: fleX;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: 4;
+    }
+  
+    .sectionheight2{
+      display: flex;
+      flex-direction: column;
+      height: 200vh;
+      width: 100%;
+      position: relative;
+      z-index: 4;
+      border-bottom: 4mm ridge rgba(75, 150, 247, 0.705);
+    }
+  
+    /* SKILLS SECTION */
+  
+    .myskills{
+      margin: auto;
+      width: 50%;
+      margin-top: 8%;
+      margin-bottom: 0%;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-family: 'Poiret One', cursive;
+      font-size: 250%;
+      text-shadow: 0 1px 0 #efefef,
+             0 2px 0 #efefef,
+             0 3px 0 #efefef,
+             0 4px 0 #efefef,
+             0 30px 5px rgba(0,0,0,.1);
+    }
+  
+    .ws{
+      background-color: rgba(245, 245, 245, 0.788);
+      border-top: 1rem ridge rgba(75, 150, 247, 0.705);
+      height: 100%;
+      width: 100%;
+      position: relative;
+      z-index: 4;
+    }
+  
+    .floatingtext {
+      width: 25%;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-family: 'Poiret One', cursive;
+      font-size: 200%;
+      text-shadow: 0 1px 0 #efefef,
+             0 2px 0 #efefef,
+             0 3px 0 #efefef,
+             0 4px 0 #efefef,
+             0 30px 5px rgba(0,0,0,.1);
+    }
+  
+  .pos1{
+    position: relative;
+    left: 15%;
+    top: 5%;
+    animation-name: floating;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .pos2{
+    position: relative;
+    left: 22%;
+    top: 20%;
+    animation-name: floating2;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .pos3{
+    position: relative;
+    left: 18%;
+    top: 20%;
+    animation-name: floating3;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .pos4{
+    position: relative;
+    left: 45%;
+    top: 0%;
+    animation-name: floating;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .pos5{
+    position: relative;
+    left: 45%;
+    top: 30%;
+    animation-name: floating2;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  .pos6{
+    position: relative;
+    left: 20%;
+    top: 10%;
+    animation-name: floating3;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+    from { transform: translate(15px,  15px); }
+    50%  { transform: translate(-15px, 35px); }
+    to   { transform: translate(15px, 15px); }    
+  }
+  @keyframes floating2 {
+    from { transform: translate(0px,  0px); }
+    65%  { transform: translate(35px, 15px); }
+    to   { transform: translate(0px, -0px); }    
+  }
+  @keyframes floating3 {
+    from { transform: translate(45px,  45px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(45px, 45px); }    
+  }
+  
+  /* UTDANNING SECTION */
+  
+  .parallaximg{
+    height: 200vh;
+    width: 100%;
+    opacity: 0.9;
+    position: relative;
+    z-index: 4;
+    border-top: 4mm ridge rgba(75, 150, 247, 0.705);
+  }
+  
+  .parallax1{
+    height: 800vh;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    z-index: 4;
+    background-image: contain;
+  }
+    
+  
+    .card{
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      text-align: center;
+      background-color: #1F2124;
+      z-index: 4;
+      width: 80%;
+      padding: 0.5  rem;
+      height: 20rem;
+      margin-bottom: -5rem;
+      border-radius: 15px;
+      position: relative;
+      margin-top: 2%;
+      margin-bottom: 1%;
+      left: 1%;
+      justify-content: center;
+      top: 5%;
+      margin-right: 2%;
+      margin: auto;
+    }
+  
+    .card:nth-child(+2){
+      position: relative;
+      top: 0%;
+    }
+  
+    .card:nth-child(+3){
+      position: relative;
+      top: -5%;
+    }
+  
+    .cardelement{
+      width: 75%;
+      height: 42%;
+      padding: 0.5rem;
+      font-family: 'Poiret One', cursive;
+      color:  #F68657;
+      font-size: 80%;
+      margin: auto;
+      border-right: 1px solid #F68657;
+      border-left: 1px solid #F68657;
+    }
+  
+    .topcardelement{
+      width: 75%;
+      height: 42%;
+      padding: 1rem;
+      font-family: 'Poiret One', cursive;
+      font-size: 100%;
+      color: whitesmoke;
+      margin: auto;
+      border-bottom: 1px solid #F68657;
+    }
+  
+    .cardelement:hover{
+      font-family: 'Poiret One', cursive;
+      color: red;
+      font-size: 150%;
+    }
+  
+    .projectcontainer{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .projectcontainer2{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .projectheadercard{
+      display: flex;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      text-align: center;
+      background-color: #1F2124;
+      z-index: 4;
+      width: 30%;
+      padding: 2rem;
+      height: 10rem;
+      border: 0.15rem #F68657 solid;
+      border-radius: 15px;
+      margin: 0 auto;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    .projectheadercardtext{
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      text-align: center;
+      font-size: 3rem;
+      width: 100%;
+      margin: auto;
+    }
+  
+    .projectcard{
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 40px rgba(0,0,0,0.4);
+      background-color: #1F2124;
+      z-index: 4;
+      width: 30%;
+      padding: 2rem;
+      height: 16rem;
+      border: 0.15rem #F68657 solid;
+      border-radius: 15px;
+      margin: 3%;
+    }
+  
+    .projectcardtitle{
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      text-align: center;
+      font-size: 1.8rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .change{
+      margin: auto;
+    }
+  
+    .projectcardtextandimagecontainer{
+      margin-top: 5%;
+      display: flex;
+      max-height: 10rem;
+    }
+  
+    .projectcardimage{
+      max-width: 50%;
+      max-height: 75%;
+      border: 0.1rem solid black;
+      border-radius: 5%;
+      margin-right: 5%;
+    }
+  
+    .projectcardtext{
+      font-family: 'Poiret One', cursive;
+      color: #F68657;
+      text-align: center;
+      font-size: 1.4rem;
+      max-height: 10rem;
+      width: 100%;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+  
+    .projectcardlink{
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      text-align: center;
+      font-size: 1.8rem;
+      overflow: hidden;
+    }
+  
+    .projectcardlink:hover{
+      color: rgb(0, 255, 234);
+    }
+  
+    /* ABOUT ME */
+  
+    .aboutmecard{
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+      text-align: center;
+      background-color: #1F2124;
+      z-index: 4;
+      width: 80%;
+      padding: 2rem;
+      /* height: 30rem; */
+      margin-bottom: -5rem;
+      border-radius: 15px;
+      position: relative;
+      margin-top: 5%;
+      justify-content: top;
+      margin: auto;
+  }
+  
+  .aboutmecardelementtop{
+      padding: 3rem;
+      font-family: 'Poiret One', cursive;
+      color: whitesmoke;
+      margin: auto;
+      border-top: 1px solid #F68657;
+      border-bottom: 1px solid #F68657;
+      position: relative;
+      margin-bottom: 5%;
+  }
+  
+  .aboutmecardelement{
+    width: 75%;
+    /* height: 42%; */
+    padding: 1rem;
+    font-family: 'Poiret One', cursive;
+    font-size: 200%;
+    color:  #F68657;
+    margin: auto;
+    border-right: 1px solid #F68657;
+    border-left: 1px solid #F68657;
+  }
 }
 
 @media /*PC*/ (min-width: 600px){
