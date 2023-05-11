@@ -13,7 +13,7 @@ html{
 
   .switch {
     position: fixed;
-    top: 2%;
+    top: 8%;
     right: 2%;
     display: inline-block;
     margin: 0 5px;
@@ -114,6 +114,46 @@ html{
   
   input.check_toggle_round_flat:checked + label:after {
     margin-left: 44px;
+  }
+
+
+  /* CONTACT ME */
+
+  .contact{
+    position: fixed;
+    min-width: 8%;
+    height: 5%;
+    z-index: 5;
+    background-color: red;
+    top: 2%;
+    right: 2%;
+    font-family: 'Poiret One', cursive;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-align: center;
+    background-color: #1F2124;
+  }
+
+  .modalblock{
+    position: relative;
+    z-index: 5;
+    width: 180%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-align: center;
+    background-color: #1F2124;
+    border: 0.2rem solid #F68657;
+    top: -1rem;
+    left: -1rem;
+    margin: auto;
+  }
+
+  .modaltext{
+    font-family: 'Poiret One', cursive;
+    color: whitesmoke;
+    padding: 0.2rem;
   }
 
 

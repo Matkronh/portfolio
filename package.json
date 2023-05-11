@@ -15,10 +15,12 @@
     "hover.css": "^2.3.2",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.7.1",
+    "react-awesome-modal": "^2.0.5",
     "react-dom": "^18.2.0",
     "react-parallax": "^3.5.1",
     "react-router-dom": "^6.8.1",
     "react-tsparticles": "^2.9.3",
+    "rodal": "^2.0.1",
     "swiper": "^9.3.0",
     "tsparticles": "^2.9.3",
     "use-scramble": "^2.2.12"

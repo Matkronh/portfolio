@@ -12,6 +12,8 @@ import { Parallax } from 'react-parallax';
 import { useState } from 'react';
 import parall1 from "../img/test11.png"
 import parall2 from "../img/codebgimg.jpg"
+import Modal from './parts/rodal'
+
 
 function BottomHalf(){
 
@@ -22,6 +24,8 @@ function BottomHalf(){
 
     const [state, setState] = useState(false)
     const toggle = ()  =>  {setState(!state)}
+
+    
     
     return(
         <div>
@@ -160,9 +164,13 @@ function BottomHalf(){
                         <div className={styles.switch}>
                             <input id="language-toggle" onChange={toggle} className={`${styles.check_toggle} + ${styles.check_toggle_round_flat}`} type="checkbox"/>
                             <label htmlFor="language-toggle"></label>
-                            <span className={styles.on}>NOR</span>
-                            <span className={styles.off}>EN</span>
+                            <span className={styles.on}>EN</span>
+                            <span className={styles.off}>NOR</span>
                         </div>
+                        <div className={styles.contact}>
+                            <Modal />
+                        </div>
+
             <div className={styles.sectionheight}/>
                     <div className={styles.sectionheight}>
                         <h2 className={styles.transitiontext}>My Portfolio</h2>
@@ -180,7 +188,7 @@ function BottomHalf(){
                                 <div className={styles.sectionheight2}>
                                     <Utdanning
                                     education={state ? "Min Utdanning" : "My Education"}
-                                    edu1={state ? "1. Sandsli VGS - Hotel and Resturant" : "1. Sandsli VGS - Hotell- og resturantfag"}
+                                    edu1={state ? "1. Sandsli VGS - Hotel and Resturantfag" : "1. Sandsli VGS - Hotell- og resturant"}
                                     edu2={state ? "2. Krokeide VGS - IKT-Servicefag VG2": "2. Krokeide VGS - IKT-Service VG2"}
                                     edu3={state ? "3. LINK A2G Åsane - Påbygging til generell studiekompetanse VG3" : "LINK A2G Åsane - University Admission Certification VG3"}
                                     edu4={state ? "4. Kodehode AMO Kurs" : "4. Kodehode AMO Bootcamp"}
