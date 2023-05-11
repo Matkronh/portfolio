@@ -13,7 +13,7 @@ html{
 
   .switch {
     position: fixed;
-    top: 8%;
+    top: 16%;
     right: 2%;
     display: inline-block;
     margin: 0 5px;
@@ -119,7 +119,33 @@ html{
 
   /* CONTACT ME */
 
+  .top{
+    font-family: 'Poiret One', cursive;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+  }
+
   .contact{
+    position: fixed;
+    min-width: 8%;
+    height: 5%;
+    z-index: 5;
+    background-color: red;
+    top: 9%;
+    right: 2%;
+    font-family: 'Poiret One', cursive;
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-align: center;
+    background-color: #1F2124;
+  }
+
+  .contact2{
     position: fixed;
     min-width: 8%;
     height: 5%;
@@ -175,6 +201,79 @@ html{
     color: whitesmoke;
     text-shadow: 5px 5px #558ABB;
   }
+
+  .downstylewrap{
+    z-index: 4;
+    position: relative;
+    width: 40%;
+    height: 40%;
+    top: 20%;
+  }
+
+  .downstylecircle{
+    display: block;
+    z-index: 3;
+    position: relative;
+    width: 25%;
+    height: 50%;
+    top: 20%;
+    background-color: #292727;
+    border: 0.1rem solid #F68657;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+    margin: auto;
+  }
+
+  .downstylecircle:before{
+    content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+
+  .downstylecircle:after{
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #d1eb89;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 2.5s infinite;
+  }
+  
+  .downtextstyle{
+    font-family: 'Poiret One', cursive;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    
+  }
+
+@keyframes ring {
+  0% {
+    width: 0%;
+    height: 0%;
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+}
   
   /* TRANSITION(MY PORTFOLIO) */
 
@@ -259,7 +358,6 @@ html{
   .ws{
     background-color: rgba(245, 245, 245, 0.788);
     border-top: 1rem ridge rgba(75, 150, 247, 0.705);
-    border-bottom: 1rem ridge rgba(75, 150, 247, 0.705);
     height: 100%;
     width: 100%;
     position: relative;

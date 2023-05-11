@@ -13,6 +13,7 @@ import { useState } from 'react';
 import parall1 from "../img/test11.png"
 import parall2 from "../img/codebgimg.jpg"
 import Modal from './parts/rodal'
+/* import dnarw from '../img/dwnn.svg' */
 
 
 function BottomHalf(){
@@ -24,11 +25,9 @@ function BottomHalf(){
 
     const [state, setState] = useState(false)
     const toggle = ()  =>  {setState(!state)}
-
     
-    
-    return(
-        <div>
+    return(      
+            <div>
             <Particles
                     id="tsparticles"
                     init={particlesInit}
@@ -153,12 +152,15 @@ function BottomHalf(){
                         }
                     }}
                     />
-            <span className={styles.anchor} id='topsection'></span>
                 <div>
+                <span className={styles.anchor} id='top'></span>
                     <Parallax blur={0} bgImage={parall1} bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
                         <div className={styles.intro}>
                             <div className={styles.hero}>
                                 <h2 className={styles.namestyle}>Mats Kronheim</h2>
+                                <wrap className={styles.downstylewrap}>
+                                    <a href="#topsection" className={styles.downstylecircle}><h2 className={styles.downtextstyle}>{state ? "Klikk Meg" : "Click Me"}</h2></a>
+                                </wrap>
                             </div>
                         </div>
                         <div className={styles.switch}>
@@ -170,19 +172,22 @@ function BottomHalf(){
                         <div className={styles.contact}>
                             <Modal />
                         </div>
+                        <a href="#top"><button className={styles.contact2}><a>Top</a></button></a>
 
             <div className={styles.sectionheight}/>
                     <div className={styles.sectionheight}>
-                        <h2 className={styles.transitiontext}>My Portfolio</h2>
+                        {/* <h2 className={styles.transitiontext}>My Portfolio</h2> */}
                     </div>
                 <div className={styles.sectionheight}/>
             </Parallax>
         </div>
             <div className={styles.container}>
+                <span className={styles.anchor} id='topsection'></span>
                         <div className={styles.sectionheight}>
-                            <Skills />                        
+                            <Skills 
+                            skills={state ? "Mine skills" : "My Skills"}
+                            />                        
                         </div>
-                <div className={styles.transition}/>
                         <div className={styles.parallaximg}>
                             <Parallax blur={3} bgImage={parall2} bgImageAlt="code snippet" bgClassName={styles.parallaximg} strength={-400}>
                                 <div className={styles.sectionheight2}>
