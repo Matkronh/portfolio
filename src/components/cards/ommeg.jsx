@@ -12,17 +12,6 @@ import { FreeMode, Scrollbar, Mousewheel } from "swiper";
 function Ommeg(props){
     return(
         <div className={styles.aboutmecard}>
-
-            <Swiper
-                direction={"vertical"}
-                slidesPerView={"auto"}
-                freeMode={true}
-                scrollbar={true}
-                mousewheel={true}
-                modules={[FreeMode, Scrollbar, Mousewheel]}
-                className="mySwiper"
-            >
-                <SwiperSlide>
                     <h1 className={styles.aboutmecardelementtop}>{props.aboutmetitle}</h1>
                         <p className={styles.aboutmecardelement}>
                             {props.para1}
@@ -33,8 +22,6 @@ function Ommeg(props){
                         <p className={styles.aboutmecardelement}>
                             {props.para3}
                         </p>
-                </SwiperSlide>
-            </Swiper>
         </div>
     )
 }
