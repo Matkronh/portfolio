@@ -27,7 +27,7 @@ class Modal extends React.Component{
       <div>
         <button className={styles.contact} onClick={this.show.bind(this)}>Contact Me</button>
         <MediaQuery maxWidth={600}>
-          <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} animation="rotate" width="240" height="120" showMask={false} closeOnEsc={true} >
+          <Rodal visible={this.state.visible} onClose={this.hide.bind(this)} animation="rotate" width="240" height="120" showMask={true} closeOnEsc={true} >
               <div>
                 <h2 className={styles.modaltext}>Mats Kronheim</h2>
                 <h2 className={styles.modaltext}>Junior Developer</h2>
