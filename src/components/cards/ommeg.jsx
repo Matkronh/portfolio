@@ -1,11 +1,9 @@
 import styles from '../styles/styles.module.css'
-import { Swiper, SwiperSlide } from "swiper/react";
 import "./styles.css";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-
-import { FreeMode, Scrollbar, Mousewheel } from "swiper";
+import mePic from "../../img/meg.jpg"
 
 
 
@@ -13,6 +11,7 @@ function Ommeg(props){
     return(
         <div className={styles.aboutmecard}>
                     <h1 className={styles.aboutmecardelementtop}>{props.aboutmetitle}</h1>
+                    <img className={styles.mepic} src={mePic} />
                         <p className={styles.aboutmecardelement}>
                             {props.para1}
                         </p>

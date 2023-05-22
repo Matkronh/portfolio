@@ -642,6 +642,16 @@ html{
     }
   
     /* ABOUT ME */
+
+    .mepic{
+      position: relative;
+      width: 55%;
+      margin: auto;
+      margin-bottom: 5%;
+      border: 0.15rem #F68657 solid;
+      border-radius: 25%;
+      margin-top: 5%;
+    }
   
     .aboutmecard{
       display: flex;
@@ -1307,6 +1317,16 @@ html{
   }
 
   /* ABOUT ME */
+
+  .mepic{
+    position: relative;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 2.5%;
+    border: 0.15rem #F68657 solid;
+    border-radius: 25%;
+    margin-top: 0;
+  }
 
   .aboutmecard{
     display: flex;
