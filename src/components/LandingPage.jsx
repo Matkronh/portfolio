@@ -16,6 +16,10 @@ import Modal from './parts/rodal'
 import MediaQuery from 'react-responsive'
 /* import dnarw from '../img/dwnn.svg' */
 
+import img1 from '../img/AKKS.png'
+import img2 from '../img/apple.jpg'
+import img3 from '../img/pear.png'
+
 
 function BottomHalf(){
 
@@ -24,7 +28,7 @@ function BottomHalf(){
         await loadFull(main);
     };
 
-    const [state, setState] = useState(false)
+    const [state, setState] = useState(true)
     const toggle = ()  =>  {setState(!state)}
     
     return(      
@@ -295,8 +299,8 @@ function BottomHalf(){
                         <div className={styles.switch}>
                             <input id="language-toggle" onChange={toggle} className={`${styles.check_toggle} + ${styles.check_toggle_round_flat}`} type="checkbox"/>
                             <label htmlFor="language-toggle"></label>
-                            <span className={styles.on}>EN</span>
-                            <span className={styles.off}>NOR</span>
+                            <span className={styles.on}>NOR</span>
+                            <span className={styles.off}>EN</span>
                         </div>
                         <div className={styles.contact}>
                             <Modal />
@@ -305,7 +309,6 @@ function BottomHalf(){
 
             <div className={styles.sectionheight}/>
                     <div className={styles.sectionheight}>
-                        {/* <h2 className={styles.transitiontext}>My Portfolio</h2> */}
                     </div>
                 <div className={styles.sectionheight}/>
             </Parallax>
@@ -329,22 +332,35 @@ function BottomHalf(){
                                 </div>
                             </Parallax>
                         </div>
-
-
-                <div className={styles.transition}/>
                         <div className={styles.sectionheight}>
-                            <Projects 
-                            projecttitle={state ? "Mine Prosjekter" : "My Projects"}
-                            project1title={state ? "Prosjekt 1" : "Project 1"}
-                            project1text={state ? "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing"}
-                            project1link={"www.example-link.com"}
-                            project2title={state ? "Prosjekt 2" : "Project 2"}
-                            project2text={state ? "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing"}
-                            project2link={"www.example-link.com"}
-                            project3title={state ? "Prosjekt 3" : "Project 3"}
-                            project3text={state ? "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing"}
-                            project3link={"www.example-link.com"}
-                            />
+                            <div className={styles.projectcontainer}>
+                                <div className={styles.projectheadercard}>
+                                    <h2 className={styles.projectheadercardtext}>{state ? "Mine Prosjekter" : "My Projects"}</h2>
+                                </div>
+                            <div className={styles.projectcontainer2}>
+                                <Projects 
+                                projecttitle={state ? "Mine Prosjekter" : "My Projects"}
+                                project1title={state ? "AKKS" : "AKKS"}
+                                project1text={state ? "AKKS er et selskap jeg bygger en nettside for på fritiden" : "AKKS is a company that I am building a webpage for on my free time."}
+                                project1link={"https://matkronh.github.io/AKKS/"}
+                                img={img1}
+                                />
+                                <Projects 
+                                projecttitle={state ? "Mine Prosjekter" : "My Projects"}
+                                project1title={state ? "My Project" : "My Project"}
+                                project1text={state ? "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?" : "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?."}
+                                project1link={"www.example.com"}
+                                img={img2}
+                                />
+                                <Projects 
+                                projecttitle={state ? "Mine Prosjekter" : "My Projects"}
+                                project1title={state ? "My Project" : "My Project"}
+                                project1text={state ? "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?" : "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?."}
+                                project1link={"www.example.com"}
+                                img={img3}
+                                />
+                                </div>
+                                </div>
                             </div>
                             <div className={styles.sectionheight3}>
                             <div className={styles.cardsection}>

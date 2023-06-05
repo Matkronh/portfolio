@@ -1224,6 +1224,7 @@ html{
   .projectcontainer2{
     width: 100%;
     display: flex;
+    justify-content: space-between;
   }
 
   .projectheadercard{
@@ -1257,7 +1258,7 @@ html{
     box-shadow: 0 0 40px rgba(0,0,0,0.4);
     background-color: #1F2124;
     z-index: 4;
-    width: 30%;
+    /* width: 30%; */
     padding: 2rem;
     height: 16rem;
     border: 0.15rem #F68657 solid;
@@ -1290,6 +1291,7 @@ html{
     border: 0.1rem solid black;
     border-radius: 5%;
     margin-right: 5%;
+    background-color: rgb(199, 198, 198);
   }
 
   .projectcardtext{
