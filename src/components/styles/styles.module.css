@@ -16,6 +16,7 @@ html{
       z-index: 5;
     }
     
+    
     .switch > span {
       position: absolute;
       top: 14px;
@@ -330,10 +331,15 @@ html{
   
     .sectionheight{
       display: fleX;
-      height: 100vh;
+      height: 120vh;
       width: 100%;
       position: relative;
+      flex-direction: column;
       z-index: 4;
+    }
+
+    .sectionheight3{
+      height: 200svh;
     }
   
     .sectionheight2{
@@ -491,23 +497,19 @@ html{
       margin-bottom: -5rem;
       border-radius: 15px;
       position: relative;
-      margin-top: 2%;
-      margin-bottom: 1%;
+      margin-top: 5%;
+      margin-bottom: 5%;
       left: 1%;
       justify-content: center;
       top: 5%;
       margin-right: 2%;
       margin: auto;
     }
-  
-    .card:nth-child(+2){
-      position: relative;
-      top: 0%;
-    }
-  
-    .card:nth-child(+3){
-      position: relative;
-      top: -5%;
+
+    .cardsection{
+      display:flex;
+      flex-direction: column;
+      height: 100%;
     }
   
     .cardelement{
@@ -543,6 +545,7 @@ html{
       width: 100%;
       display: flex;
       flex-direction: column;
+      height: 120%;
     }
   
     .projectcontainer2{
@@ -560,7 +563,7 @@ html{
       z-index: 4;
       width: 30%;
       padding: 2rem;
-      height: 10rem;
+      height: 2rem;
       border: 0.15rem #F68657 solid;
       border-radius: 15px;
       margin: 0 auto;
@@ -607,7 +610,8 @@ html{
     .projectcardtextandimagecontainer{
       margin-top: 5%;
       display: flex;
-      max-height: 10rem;
+      max-height: 8rem;
+      padding-bottom: 0;
     }
   
     .projectcardimage{
@@ -1015,6 +1019,7 @@ html{
     height: 100vh;
     width: 100%;
     position: relative;
+    flex-direction: column;
     z-index: 4;
   }
 
@@ -1179,14 +1184,8 @@ html{
     margin-right: 2%;
   }
 
-  .card:nth-child(+2){
-    position: relative;
-    top: 40rem;
-  }
-
-  .card:nth-child(+3){
-    position: relative;
-    top: 74rem;
+  .cardsection{
+    display:flex;
   }
 
   .cardelement{
