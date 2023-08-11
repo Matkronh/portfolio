@@ -17,7 +17,7 @@ import MediaQuery from 'react-responsive'
 /* import dnarw from '../img/dwnn.svg' */
 
 import img1 from '../img/AKKS.png'
-import img2 from '../img/apple.jpg'
+import img2 from '../img/LB.png'
 import img3 from '../img/pear.png'
 
 
@@ -341,15 +341,15 @@ function BottomHalf(){
                                 <Projects 
                                 projecttitle={state ? "Mine Prosjekter" : "My Projects"}
                                 project1title={state ? "AKKS" : "AKKS"}
-                                project1text={state ? "AKKS er et selskap jeg bygger en nettside for på fritiden" : "AKKS is a company that I am building a webpage for on my free time."}
+                                project1text={state ? "AKKS er et selskap jeg bygger en nettside for på fritiden, Github repo - https://github.com/Matkronh/AKKS" : "AKKS is a company that I am building a webpage for on my free time, Github repo - https://github.com/Matkronh/AKKS"}
                                 project1link={"https://matkronh.github.io/AKKS/"}
                                 img={img1}
                                 />
                                 <Projects 
                                 projecttitle={state ? "Mine Prosjekter" : "My Projects"}
-                                project1title={state ? "My Project" : "My Project"}
-                                project1text={state ? "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?" : "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?."}
-                                project1link={"www.example.com"}
+                                project1title={state ? "Louis Beton" : "Louis Beton"}
+                                project1text={state ? "Louis Beton er en E-shop side jeg har laget for å vise litt forskjellige kunnskaper som en utvikler. Github repo - https://github.com/Matkronh/FakeShop" : "Louis Beton is a E-shop website I have made to demonstrate different levels of my abilities as a developer. Github repo - https://github.com/Matkronh/FakeShop"}
+                                project1link={"https://matkronh.github.io/FakeShop/"}
                                 img={img2}
                                 />
                                 <Projects 
