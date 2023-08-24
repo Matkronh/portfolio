@@ -10,6 +10,9 @@ function Projects(props){
                                 <img className={styles.projectcardimage} src={props.img}/>
                                 <h2 className={styles.projectcardtext}>{props.project1text}</h2>
                             </div>
+                            <h2 className={styles.linkcss}>Repo</h2>
+                        <a href={props.project1linkrepo} target="_blank" rel="noopener noreferrer" className={styles.projectcardlink}>{props.project1linkrepo}</a>
+                            <h2 className={styles.linkcss}>Preview</h2>
                         <a href={props.project1link} target="_blank" rel="noopener noreferrer" className={styles.projectcardlink}>{props.project1link}</a>
                 </div>
             </div>

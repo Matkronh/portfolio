@@ -325,7 +325,7 @@ function BottomHalf(){
                                 <div className={styles.sectionheight2}>
                                     <Ommeg
                                         aboutmetitle={state ? "Om Meg" : "About Me"}
-                                        para1={state ? "Jeg heter Mats og jeg er 33 år ung. Jeg elsker å programmere, designe og bruke kreativiteten min til å skape, om det er gjennom html, css eller js- til syvende og sist skal alt flettes sammen og det er noe med den følelsen når alt klikker sammen jeg rett og slett ikke får nok av. Når jeg får på meg headsettet, utestenger alle distraksjoner og kommer inn i sonen så føler jeg at det begynner å krible i fingrene og det er rett opp i syvende gir." : "My name is Mats and I am 33 years young. I love programming, designing and using my creativity to create, wether it's through html, css or js- at the end of the day everything has to be interconnected and it's something about the feeling when everything clicks I just can't get enough of. When I get my headset on, shut out the distractions and get into the zone I feel my hands tingling and it's straight into seventh gear."}
+                                        para1={state ? "Hei! Jeg heter Mats. Jeg elsker å programmere, designe og bruke kreativiteten min til å skape, om det er gjennom html, css eller js- til syvende og sist skal alt flettes sammen og det er noe med den følelsen når alt klikker sammen jeg rett og slett ikke får nok av." : "Hi! My name is Mats. I love programming, designing and using my creativity to create. Wether it's through html, css or js- at the end of the day everything needs to be interconnected and it's something about the feeling you get when everything clicks I just can't get enough of."}
                                         para2={state ? "Jeg liker foruten å bruke fritiden min til bl.a spill og level design i ulike arenaer, har vært innom Unity der jeg selv-lærte meg en del c#, men mesteparten av tiden de siste årene har jeg brukt i Source SDK der jeg har designet og bygget opp spill leveler; noe som hjalp meg veldig når jeg begynte med Javascript siden det gikk veldig mye i logikk, I/O, parenting, class & id i Source SDK og." : "Coding aside, I like to devote my free time to game and level design in a variety of different arenas such as Unity where I self taught myself a lot of c# and published a simple game on the playstore but the majority of my time over the last years has gone into Source SDK where I have designed and built up game maps which has been a valuable resource for me when I started with Javascript since it touches on many similar topics such as Logic, I/O, parenting, classes & ID's."}
                                         para3={state ? "Denne fritidshobbyen min har uten tvil gjort meg til en bedre utvikler med timesvis av feilsøking, tilbakemeldinger og hardt arbeid." : "This hobby of mine has without doubt made me a better developer with hours of troubleshooting, feedback and hard work."}
                                     />
@@ -341,14 +341,16 @@ function BottomHalf(){
                                 <Projects 
                                 projecttitle={state ? "Mine Prosjekter" : "My Projects"}
                                 project1title={state ? "AKKS" : "AKKS"}
-                                project1text={state ? "AKKS er et selskap jeg bygger en nettside for på fritiden, Github repo - https://github.com/Matkronh/AKKS" : "AKKS is a company that I am building a webpage for on my free time, Github repo - https://github.com/Matkronh/AKKS"}
+                                project1text={state ? "AKKS er et selskap jeg bygger en nettside for på fritiden" : "AKKS is a company that I am building a webpage for on my free time, Github repo - github.com/Matkronh/AKKS"}
+                                project1linkrepo={"https://github.com/Matkronh/AKKS/"}
                                 project1link={"https://matkronh.github.io/AKKS/"}
                                 img={img1}
                                 />
                                 <Projects 
                                 projecttitle={state ? "Mine Prosjekter" : "My Projects"}
                                 project1title={state ? "Louis Beton" : "Louis Beton"}
-                                project1text={state ? "Louis Beton er en E-shop side jeg har laget for å vise litt forskjellige kunnskaper som en utvikler. Github repo - https://github.com/Matkronh/FakeShop" : "Louis Beton is a E-shop website I have made to demonstrate different levels of my abilities as a developer. Github repo - https://github.com/Matkronh/FakeShop"}
+                                project1text={state ? "Louis Beton er en E-shop side jeg har laget for å vise litt forskjellige kunnskaper som en utvikler." : "Louis Beton is a E-shop website I have made to demonstrate different levels of my abilities as a developer."}
+                                project1linkrepo={"https://github.com/Matkronh/FakeShop/"}
                                 project1link={"https://matkronh.github.io/FakeShop/"}
                                 img={img2}
                                 />
@@ -356,6 +358,7 @@ function BottomHalf(){
                                 projecttitle={state ? "Mine Prosjekter" : "My Projects"}
                                 project1title={state ? "My Project" : "My Project"}
                                 project1text={state ? "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?" : "Veritatis similique culpa vero voluptas libero quas ullam ex dolor atque et nam architecto eum, distinctio quisquam cum exercitationem ut esse repellat?."}
+                                project1linkrepo={"www.example.com"}
                                 project1link={"www.example.com"}
                                 img={img3}
                                 />
