@@ -14,7 +14,9 @@ import parall1 from "../img/test11.png"
 import parall2 from "../img/codebgimg.jpg"
 import Modal from './parts/rodal'
 import MediaQuery from 'react-responsive'
-/* import dnarw from '../img/dwnn.svg' */
+/* import discSvg from '../img/discord-icon-svgrepo-com.svg'
+import gitSvg from '../img/github-color-svgrepo-com.svg'
+import twitSvg from '../img/twitter-color-svgrepo-com.svg' */
 
 import img1 from '../img/AKKS.png'
 import img2 from '../img/LB.png'
@@ -290,9 +292,9 @@ function BottomHalf(){
                     <Parallax blur={0} bgImage={parall1} bgImageAlt="heavenly delusion" bgClassName={styles.parallax1} strength={-10000}>
                         <div className={styles.intro}>
                             <div className={styles.hero}>
-                                <h2 className={styles.namestyle}>Mats Kronheim</h2>
+                                {/* <h2 className={styles.namestyle}>Mats Kronheim</h2> */}
                                 <wrap className={styles.downstylewrap}>
-                                    <a href="#topsection" className={styles.downstylecircle}><h2 className={styles.downtextstyle}>{state ? "Klikk Meg" : "Click Me"}</h2></a>
+                                    <a href="#topsection" className={styles.downstylecircle}><h2 className={styles.downtextstyle}>{state ? "Mats Kronheim" : "Mats Kronheim"}</h2></a>
                                 </wrap>
                             </div>
                         </div>
@@ -302,9 +304,14 @@ function BottomHalf(){
                             <span className={styles.on}>NOR</span>
                             <span className={styles.off}>EN</span>
                         </div>
-                        <div className={styles.contact}>
+                        {/* <div className={styles.contact}>
                             <Modal />
-                        </div>
+                        </div> */}
+                        {/* <div className={styles.contact3}>
+                            <a href="https://discord.com/users/1054331390180728904" target="_blank" rel="noopener noreferrer"><img className={styles.refbtn} src={discSvg}/></a>
+                            <a href="https://github.com/Matkronh" target="_blank" rel="noopener noreferrer"><img className={styles.refbtn} src={gitSvg}/></a>
+                            <a href="https://twitter.com/Mats277961" target="_blank" rel="noopener noreferrer"><img className={styles.refbtn} src={twitSvg}/></a>
+                        </div> */}
                         <a href="#top"><button className={styles.contact2}><a>Top</a></button></a>
 
             <div className={styles.sectionheight}/>
@@ -315,11 +322,6 @@ function BottomHalf(){
         </div>
             <div className={styles.container}>
                 <span className={styles.anchor} id='topsection'></span>
-                        <div className={styles.sectionheight}>
-                            <Skills 
-                            skills={state ? "Mine skills" : "My Skills"}
-                            />                        
-                        </div>
                         <div className={styles.parallaximg}>
                             <Parallax blur={3} bgImage={parall2} bgImageAlt="code snippet" bgClassName={styles.parallaximg} strength={-400}>
                                 <div className={styles.sectionheight2}>
@@ -331,6 +333,11 @@ function BottomHalf(){
                                     />
                                 </div>
                             </Parallax>
+                        </div>
+                        <div className={styles.sectionheight}>
+                            <Skills 
+                            skills={state ? "Mine skills" : "My Skills"}
+                            />                        
                         </div>
                         <div className={styles.sectionheight}>
                             <div className={styles.projectcontainer}>
